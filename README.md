@@ -1,7 +1,7 @@
-# Plink Merchant App - Prototype Compatibility Phase
+# Merchant App V1 - Prototype Compatibility Phase
 
 ## Overview
-This repository contains the complete compatibility phase workflow for refactoring AI-generated prototype features into the existing Plink Merchant App architecture.
+This repository contains the complete compatibility phase workflow for refactoring AI-generated prototype features into the existing Merchant App V0 architecture.
 
 ## ⚠️ CRITICAL: Input Protection
 **DO NOT MODIFY FILES IN `/inputs/` AFTER INITIAL SETUP**
