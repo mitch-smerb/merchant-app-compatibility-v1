@@ -1,0 +1,1673 @@
+ID,Name,Available Sources,Data Type,Description,Match Sources,Status
+DP_RMV_0001,Total Transaction Count All Time,"Redshift > business_entity_commercial_district_fi_summary > count_all_time
+Redshift > business_entity_fi_summary > count_all_time
+Redshift > business_entity_summary > count_all_time
+Redshift > consumer_business_entity_summary > count_all_time
+Redshift > consumer_commercial_district_fi_summary > count_all_time
+Redshift > consumer_commercial_district_summary > count_all_time
+Redshift > commercial_district_fi_summary > count_all_time
+Redshift > category_0_commercial_district_fi_summary > count_all_time
+Redshift > consumer_summary > count_all_time
+Redshift > fi_summary > count_all_time
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_all_time
+Redshift > raw_descriptor_fi_summary > count_all_time",integer,"Total number of transactions for all time. Available across 12 different aggregation levels including business entity, commercial district, FI, consumer, category, and raw descriptor combinations.","Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0002,Total Spend Amount All Time,"Redshift > business_entity_commercial_district_fi_summary > total_spend_all_time
+Redshift > business_entity_fi_summary > total_spend_all_time
+Redshift > business_entity_summary > total_spend_all_time
+Redshift > consumer_business_entity_summary > total_spend_all_time
+Redshift > consumer_commercial_district_fi_summary > total_spend_all_time
+Redshift > consumer_commercial_district_summary > total_spend_all_time
+Redshift > commercial_district_fi_summary > total_spend_all_time
+Redshift > category_0_commercial_district_fi_summary > total_spend_all_time
+Redshift > consumer_summary > total_spend_all_time
+Redshift > fi_summary > total_spend_all_time
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_all_time
+Redshift > raw_descriptor_fi_summary > total_spend_all_time",decimal,"Total dollar amount spent for all time. Available across 12 different aggregation levels including business entity, commercial district, FI, consumer, category, and raw descriptor combinations.","Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0003,Average Spend Amount All Time,"Redshift > business_entity_commercial_district_fi_summary > average_spend_all_time
+Redshift > business_entity_fi_summary > average_spend_all_time
+Redshift > business_entity_summary > average_spend_all_time
+Redshift > consumer_business_entity_summary > average_spend_all_time
+Redshift > consumer_commercial_district_fi_summary > average_spend_all_time
+Redshift > consumer_commercial_district_summary > average_spend_all_time
+Redshift > commercial_district_fi_summary > average_spend_all_time
+Redshift > category_0_commercial_district_fi_summary > average_spend_all_time
+Redshift > consumer_summary > average_spend_all_time
+Redshift > fi_summary > average_spend_all_time
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_all_time
+Redshift > raw_descriptor_fi_summary > average_spend_all_time",decimal,"Average dollar amount per transaction for all time. Available across 12 different aggregation levels including business entity, commercial district, FI, consumer, category, and raw descriptor combinations.","Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0004,Unique Consumer Count All Time,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_all_time
+Redshift > business_entity_fi_summary > unique_consumers_all_time
+Redshift > business_entity_summary > unique_consumers_all_time
+Redshift > consumer_business_entity_summary > unique_consumers_all_time
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_all_time
+Redshift > consumer_commercial_district_summary > unique_consumers_all_time
+Redshift > commercial_district_fi_summary > unique_consumers_all_time
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_all_time
+Redshift > fi_summary > unique_consumers_all_time
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_all_time
+Redshift > raw_descriptor_fi_summary > unique_consumers_all_time",integer,Number of unique consumers for all time. Available across 11 aggregation levels (not available in consumer_summary as it would always be 1).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0005,Transaction Count Last 30 Days,"Redshift > business_entity_commercial_district_fi_summary > count_last_30_days
+Redshift > business_entity_fi_summary > count_last_30_days
+Redshift > business_entity_summary > count_last_30_days
+Redshift > consumer_business_entity_summary > count_last_30_days
+Redshift > consumer_commercial_district_fi_summary > count_last_30_days
+Redshift > consumer_commercial_district_summary > count_last_30_days
+Redshift > commercial_district_fi_summary > count_last_30_days
+Redshift > category_0_commercial_district_fi_summary > count_last_30_days
+Redshift > consumer_summary > count_last_30_days
+Redshift > fi_summary > count_last_30_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_30_days
+Redshift > raw_descriptor_fi_summary > count_last_30_days",integer,Number of transactions in the last 30 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0006,Total Spend Last 30 Days,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_30_days
+Redshift > business_entity_fi_summary > total_spend_last_30_days
+Redshift > business_entity_summary > total_spend_last_30_days
+Redshift > consumer_business_entity_summary > total_spend_last_30_days
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_30_days
+Redshift > consumer_commercial_district_summary > total_spend_last_30_days
+Redshift > commercial_district_fi_summary > total_spend_last_30_days
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_30_days
+Redshift > consumer_summary > total_spend_last_30_days
+Redshift > fi_summary > total_spend_last_30_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_30_days
+Redshift > raw_descriptor_fi_summary > total_spend_last_30_days",decimal,Total spending in the last 30 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0007,Average Spend Last 30 Days,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_30_days
+Redshift > business_entity_fi_summary > average_spend_last_30_days
+Redshift > business_entity_summary > average_spend_last_30_days
+Redshift > consumer_business_entity_summary > average_spend_last_30_days
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_30_days
+Redshift > consumer_commercial_district_summary > average_spend_last_30_days
+Redshift > commercial_district_fi_summary > average_spend_last_30_days
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_30_days
+Redshift > consumer_summary > average_spend_last_30_days
+Redshift > fi_summary > average_spend_last_30_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_30_days
+Redshift > raw_descriptor_fi_summary > average_spend_last_30_days",decimal,Average spending per transaction in the last 30 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0008,Unique Consumers Last 30 Days,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_30_days
+Redshift > business_entity_fi_summary > unique_consumers_last_30_days
+Redshift > business_entity_summary > unique_consumers_last_30_days
+Redshift > consumer_business_entity_summary > unique_consumers_last_30_days
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_30_days
+Redshift > consumer_commercial_district_summary > unique_consumers_last_30_days
+Redshift > commercial_district_fi_summary > unique_consumers_last_30_days
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_30_days
+Redshift > fi_summary > unique_consumers_last_30_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_30_days
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_30_days",integer,Number of unique consumers in the last 30 days. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0009,Transaction Count 30-60 Days,"Redshift > business_entity_commercial_district_fi_summary > count_last_30_to_60_days
+Redshift > business_entity_fi_summary > count_last_30_to_60_days
+Redshift > business_entity_summary > count_last_30_to_60_days
+Redshift > consumer_business_entity_summary > count_last_30_to_60_days
+Redshift > consumer_commercial_district_fi_summary > count_last_30_to_60_days
+Redshift > consumer_commercial_district_summary > count_last_30_to_60_days
+Redshift > commercial_district_fi_summary > count_last_30_to_60_days
+Redshift > category_0_commercial_district_fi_summary > count_last_30_to_60_days
+Redshift > consumer_summary > count_last_30_to_60_days
+Redshift > fi_summary > count_last_30_to_60_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_30_to_60_days
+Redshift > raw_descriptor_fi_summary > count_last_30_to_60_days",integer,Number of transactions in the 30-60 days ago period. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0010,Total Spend 30-60 Days,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_30_to_60_days
+Redshift > business_entity_fi_summary > total_spend_last_30_to_60_days
+Redshift > business_entity_summary > total_spend_last_30_to_60_days
+Redshift > consumer_business_entity_summary > total_spend_last_30_to_60_days
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_30_to_60_days
+Redshift > consumer_commercial_district_summary > total_spend_last_30_to_60_days
+Redshift > commercial_district_fi_summary > total_spend_last_30_to_60_days
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_30_to_60_days
+Redshift > consumer_summary > total_spend_last_30_to_60_days
+Redshift > fi_summary > total_spend_last_30_to_60_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_30_to_60_days
+Redshift > raw_descriptor_fi_summary > total_spend_last_30_to_60_days",decimal,Total spending in the 30-60 days ago period. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0011,Average Spend 30-60 Days,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_30_to_60_days
+Redshift > business_entity_fi_summary > average_spend_last_30_to_60_days
+Redshift > business_entity_summary > average_spend_last_30_to_60_days
+Redshift > consumer_business_entity_summary > average_spend_last_30_to_60_days
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_30_to_60_days
+Redshift > consumer_commercial_district_summary > average_spend_last_30_to_60_days
+Redshift > commercial_district_fi_summary > average_spend_last_30_to_60_days
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_30_to_60_days
+Redshift > consumer_summary > average_spend_last_30_to_60_days
+Redshift > fi_summary > average_spend_last_30_to_60_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_30_to_60_days
+Redshift > raw_descriptor_fi_summary > average_spend_last_30_to_60_days",decimal,Average spending per transaction in the 30-60 days ago period. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0012,Unique Consumers 30-60 Days,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_30_to_60_days
+Redshift > business_entity_fi_summary > unique_consumers_last_30_to_60_days
+Redshift > business_entity_summary > unique_consumers_last_30_to_60_days
+Redshift > consumer_business_entity_summary > unique_consumers_last_30_to_60_days
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_30_to_60_days
+Redshift > consumer_commercial_district_summary > unique_consumers_last_30_to_60_days
+Redshift > commercial_district_fi_summary > unique_consumers_last_30_to_60_days
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_30_to_60_days
+Redshift > fi_summary > unique_consumers_last_30_to_60_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_30_to_60_days
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_30_to_60_days",integer,Number of unique consumers in the 30-60 days ago period. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0013,Transaction Count 60-90 Days,"Redshift > business_entity_commercial_district_fi_summary > count_last_60_to_90_days
+Redshift > business_entity_fi_summary > count_last_60_to_90_days
+Redshift > business_entity_summary > count_last_60_to_90_days
+Redshift > consumer_business_entity_summary > count_last_60_to_90_days
+Redshift > consumer_commercial_district_fi_summary > count_last_60_to_90_days
+Redshift > consumer_commercial_district_summary > count_last_60_to_90_days
+Redshift > commercial_district_fi_summary > count_last_60_to_90_days
+Redshift > category_0_commercial_district_fi_summary > count_last_60_to_90_days
+Redshift > consumer_summary > count_last_60_to_90_days
+Redshift > fi_summary > count_last_60_to_90_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_60_to_90_days
+Redshift > raw_descriptor_fi_summary > count_last_60_to_90_days",integer,Number of transactions in the 60-90 days ago period. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0014,Total Spend 60-90 Days,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_60_to_90_days
+Redshift > business_entity_fi_summary > total_spend_last_60_to_90_days
+Redshift > business_entity_summary > total_spend_last_60_to_90_days
+Redshift > consumer_business_entity_summary > total_spend_last_60_to_90_days
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_60_to_90_days
+Redshift > consumer_commercial_district_summary > total_spend_last_60_to_90_days
+Redshift > commercial_district_fi_summary > total_spend_last_60_to_90_days
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_60_to_90_days
+Redshift > consumer_summary > total_spend_last_60_to_90_days
+Redshift > fi_summary > total_spend_last_60_to_90_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_60_to_90_days
+Redshift > raw_descriptor_fi_summary > total_spend_last_60_to_90_days",decimal,Total spending in the 60-90 days ago period. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0015,Average Spend 60-90 Days,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_60_to_90_days
+Redshift > business_entity_fi_summary > average_spend_last_60_to_90_days
+Redshift > business_entity_summary > average_spend_last_60_to_90_days
+Redshift > consumer_business_entity_summary > average_spend_last_60_to_90_days
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_60_to_90_days
+Redshift > consumer_commercial_district_summary > average_spend_last_60_to_90_days
+Redshift > commercial_district_fi_summary > average_spend_last_60_to_90_days
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_60_to_90_days
+Redshift > consumer_summary > average_spend_last_60_to_90_days
+Redshift > fi_summary > average_spend_last_60_to_90_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_60_to_90_days
+Redshift > raw_descriptor_fi_summary > average_spend_last_60_to_90_days",decimal,Average spending per transaction in the 60-90 days ago period. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0016,Unique Consumers 60-90 Days,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_60_to_90_days
+Redshift > business_entity_fi_summary > unique_consumers_last_60_to_90_days
+Redshift > business_entity_summary > unique_consumers_last_60_to_90_days
+Redshift > consumer_business_entity_summary > unique_consumers_last_60_to_90_days
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_60_to_90_days
+Redshift > consumer_commercial_district_summary > unique_consumers_last_60_to_90_days
+Redshift > commercial_district_fi_summary > unique_consumers_last_60_to_90_days
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_60_to_90_days
+Redshift > fi_summary > unique_consumers_last_60_to_90_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_60_to_90_days
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_60_to_90_days",integer,Number of unique consumers in the 60-90 days ago period. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0017,Transaction Count Last 60 Days,"Redshift > business_entity_commercial_district_fi_summary > count_last_60_days
+Redshift > business_entity_fi_summary > count_last_60_days
+Redshift > business_entity_summary > count_last_60_days
+Redshift > consumer_business_entity_summary > count_last_60_days
+Redshift > consumer_commercial_district_fi_summary > count_last_60_days
+Redshift > consumer_commercial_district_summary > count_last_60_days
+Redshift > commercial_district_fi_summary > count_last_60_days
+Redshift > category_0_commercial_district_fi_summary > count_last_60_days
+Redshift > consumer_summary > count_last_60_days
+Redshift > fi_summary > count_last_60_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_60_days
+Redshift > raw_descriptor_fi_summary > count_last_60_days",integer,Number of transactions in the last 60 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0018,Total Spend Last 60 Days,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_60_days
+Redshift > business_entity_fi_summary > total_spend_last_60_days
+Redshift > business_entity_summary > total_spend_last_60_days
+Redshift > consumer_business_entity_summary > total_spend_last_60_days
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_60_days
+Redshift > consumer_commercial_district_summary > total_spend_last_60_days
+Redshift > commercial_district_fi_summary > total_spend_last_60_days
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_60_days
+Redshift > consumer_summary > total_spend_last_60_days
+Redshift > fi_summary > total_spend_last_60_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_60_days
+Redshift > raw_descriptor_fi_summary > total_spend_last_60_days",decimal,Total spending in the last 60 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0019,Average Spend Last 60 Days,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_60_days
+Redshift > business_entity_fi_summary > average_spend_last_60_days
+Redshift > business_entity_summary > average_spend_last_60_days
+Redshift > consumer_business_entity_summary > average_spend_last_60_days
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_60_days
+Redshift > consumer_commercial_district_summary > average_spend_last_60_days
+Redshift > commercial_district_fi_summary > average_spend_last_60_days
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_60_days
+Redshift > consumer_summary > average_spend_last_60_days
+Redshift > fi_summary > average_spend_last_60_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_60_days
+Redshift > raw_descriptor_fi_summary > average_spend_last_60_days",decimal,Average spending per transaction in the last 60 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0020,Unique Consumers Last 60 Days,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_60_days
+Redshift > business_entity_fi_summary > unique_consumers_last_60_days
+Redshift > business_entity_summary > unique_consumers_last_60_days
+Redshift > consumer_business_entity_summary > unique_consumers_last_60_days
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_60_days
+Redshift > consumer_commercial_district_summary > unique_consumers_last_60_days
+Redshift > commercial_district_fi_summary > unique_consumers_last_60_days
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_60_days
+Redshift > fi_summary > unique_consumers_last_60_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_60_days
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_60_days",integer,Number of unique consumers in the last 60 days. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0021,Transaction Count Last 90 Days,"Redshift > business_entity_commercial_district_fi_summary > count_last_90_days
+Redshift > business_entity_fi_summary > count_last_90_days
+Redshift > business_entity_summary > count_last_90_days
+Redshift > consumer_business_entity_summary > count_last_90_days
+Redshift > consumer_commercial_district_fi_summary > count_last_90_days
+Redshift > consumer_commercial_district_summary > count_last_90_days
+Redshift > commercial_district_fi_summary > count_last_90_days
+Redshift > category_0_commercial_district_fi_summary > count_last_90_days
+Redshift > consumer_summary > count_last_90_days
+Redshift > fi_summary > count_last_90_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_90_days
+Redshift > raw_descriptor_fi_summary > count_last_90_days",integer,Number of transactions in the last 90 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0022,Total Spend Last 90 Days,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_90_days
+Redshift > business_entity_fi_summary > total_spend_last_90_days
+Redshift > business_entity_summary > total_spend_last_90_days
+Redshift > consumer_business_entity_summary > total_spend_last_90_days
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_90_days
+Redshift > consumer_commercial_district_summary > total_spend_last_90_days
+Redshift > commercial_district_fi_summary > total_spend_last_90_days
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_90_days
+Redshift > consumer_summary > total_spend_last_90_days
+Redshift > fi_summary > total_spend_last_90_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_90_days
+Redshift > raw_descriptor_fi_summary > total_spend_last_90_days",decimal,Total spending in the last 90 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0023,Average Spend Last 90 Days,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_90_days
+Redshift > business_entity_fi_summary > average_spend_last_90_days
+Redshift > business_entity_summary > average_spend_last_90_days
+Redshift > consumer_business_entity_summary > average_spend_last_90_days
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_90_days
+Redshift > consumer_commercial_district_summary > average_spend_last_90_days
+Redshift > commercial_district_fi_summary > average_spend_last_90_days
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_90_days
+Redshift > consumer_summary > average_spend_last_90_days
+Redshift > fi_summary > average_spend_last_90_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_90_days
+Redshift > raw_descriptor_fi_summary > average_spend_last_90_days",decimal,Average spending per transaction in the last 90 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0024,Unique Consumers Last 90 Days,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_90_days
+Redshift > business_entity_fi_summary > unique_consumers_last_90_days
+Redshift > business_entity_summary > unique_consumers_last_90_days
+Redshift > consumer_business_entity_summary > unique_consumers_last_90_days
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_90_days
+Redshift > consumer_commercial_district_summary > unique_consumers_last_90_days
+Redshift > commercial_district_fi_summary > unique_consumers_last_90_days
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_90_days
+Redshift > fi_summary > unique_consumers_last_90_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_90_days
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_90_days",integer,Number of unique consumers in the last 90 days. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0025,Transaction Count Last 180 Days,"Redshift > business_entity_commercial_district_fi_summary > count_last_180_days
+Redshift > business_entity_fi_summary > count_last_180_days
+Redshift > business_entity_summary > count_last_180_days
+Redshift > consumer_business_entity_summary > count_last_180_days
+Redshift > consumer_commercial_district_fi_summary > count_last_180_days
+Redshift > consumer_commercial_district_summary > count_last_180_days
+Redshift > commercial_district_fi_summary > count_last_180_days
+Redshift > category_0_commercial_district_fi_summary > count_last_180_days
+Redshift > consumer_summary > count_last_180_days
+Redshift > fi_summary > count_last_180_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_180_days
+Redshift > raw_descriptor_fi_summary > count_last_180_days",integer,Number of transactions in the last 180 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0026,Total Spend Last 180 Days,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_180_days
+Redshift > business_entity_fi_summary > total_spend_last_180_days
+Redshift > business_entity_summary > total_spend_last_180_days
+Redshift > consumer_business_entity_summary > total_spend_last_180_days
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_180_days
+Redshift > consumer_commercial_district_summary > total_spend_last_180_days
+Redshift > commercial_district_fi_summary > total_spend_last_180_days
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_180_days
+Redshift > consumer_summary > total_spend_last_180_days
+Redshift > fi_summary > total_spend_last_180_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_180_days
+Redshift > raw_descriptor_fi_summary > total_spend_last_180_days",decimal,Total spending in the last 180 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0027,Average Spend Last 180 Days,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_180_days
+Redshift > business_entity_fi_summary > average_spend_last_180_days
+Redshift > business_entity_summary > average_spend_last_180_days
+Redshift > consumer_business_entity_summary > average_spend_last_180_days
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_180_days
+Redshift > consumer_commercial_district_summary > average_spend_last_180_days
+Redshift > commercial_district_fi_summary > average_spend_last_180_days
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_180_days
+Redshift > consumer_summary > average_spend_last_180_days
+Redshift > fi_summary > average_spend_last_180_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_180_days
+Redshift > raw_descriptor_fi_summary > average_spend_last_180_days",decimal,Average spending per transaction in the last 180 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0028,Unique Consumers Last 180 Days,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_180_days
+Redshift > business_entity_fi_summary > unique_consumers_last_180_days
+Redshift > business_entity_summary > unique_consumers_last_180_days
+Redshift > consumer_business_entity_summary > unique_consumers_last_180_days
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_180_days
+Redshift > consumer_commercial_district_summary > unique_consumers_last_180_days
+Redshift > commercial_district_fi_summary > unique_consumers_last_180_days
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_180_days
+Redshift > fi_summary > unique_consumers_last_180_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_180_days
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_180_days",integer,Number of unique consumers in the last 180 days. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0029,Transaction Count Last 365 Days,"Redshift > business_entity_commercial_district_fi_summary > count_last_365_days
+Redshift > business_entity_fi_summary > count_last_365_days
+Redshift > business_entity_summary > count_last_365_days
+Redshift > consumer_business_entity_summary > count_last_365_days
+Redshift > consumer_commercial_district_fi_summary > count_last_365_days
+Redshift > consumer_commercial_district_summary > count_last_365_days
+Redshift > commercial_district_fi_summary > count_last_365_days
+Redshift > category_0_commercial_district_fi_summary > count_last_365_days
+Redshift > consumer_summary > count_last_365_days
+Redshift > fi_summary > count_last_365_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_365_days
+Redshift > raw_descriptor_fi_summary > count_last_365_days",integer,Number of transactions in the last 365 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0030,Total Spend Last 365 Days,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_365_days
+Redshift > business_entity_fi_summary > total_spend_last_365_days
+Redshift > business_entity_summary > total_spend_last_365_days
+Redshift > consumer_business_entity_summary > total_spend_last_365_days
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_365_days
+Redshift > consumer_commercial_district_summary > total_spend_last_365_days
+Redshift > commercial_district_fi_summary > total_spend_last_365_days
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_365_days
+Redshift > consumer_summary > total_spend_last_365_days
+Redshift > fi_summary > total_spend_last_365_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_365_days
+Redshift > raw_descriptor_fi_summary > total_spend_last_365_days",decimal,Total spending in the last 365 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0031,Average Spend Last 365 Days,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_365_days
+Redshift > business_entity_fi_summary > average_spend_last_365_days
+Redshift > business_entity_summary > average_spend_last_365_days
+Redshift > consumer_business_entity_summary > average_spend_last_365_days
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_365_days
+Redshift > consumer_commercial_district_summary > average_spend_last_365_days
+Redshift > commercial_district_fi_summary > average_spend_last_365_days
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_365_days
+Redshift > consumer_summary > average_spend_last_365_days
+Redshift > fi_summary > average_spend_last_365_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_365_days
+Redshift > raw_descriptor_fi_summary > average_spend_last_365_days",decimal,Average spending per transaction in the last 365 days. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0032,Unique Consumers Last 365 Days,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_365_days
+Redshift > business_entity_fi_summary > unique_consumers_last_365_days
+Redshift > business_entity_summary > unique_consumers_last_365_days
+Redshift > consumer_business_entity_summary > unique_consumers_last_365_days
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_365_days
+Redshift > consumer_commercial_district_summary > unique_consumers_last_365_days
+Redshift > commercial_district_fi_summary > unique_consumers_last_365_days
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_365_days
+Redshift > fi_summary > unique_consumers_last_365_days
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_365_days
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_365_days",integer,Number of unique consumers in the last 365 days. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0033,Transaction Count This Year,"Redshift > business_entity_commercial_district_fi_summary > count_this_year
+Redshift > business_entity_fi_summary > count_this_year
+Redshift > business_entity_summary > count_this_year
+Redshift > consumer_business_entity_summary > count_this_year
+Redshift > consumer_commercial_district_fi_summary > count_this_year
+Redshift > consumer_commercial_district_summary > count_this_year
+Redshift > commercial_district_fi_summary > count_this_year
+Redshift > category_0_commercial_district_fi_summary > count_this_year
+Redshift > consumer_summary > count_this_year
+Redshift > fi_summary > count_this_year
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_this_year
+Redshift > raw_descriptor_fi_summary > count_this_year",integer,Number of transactions in the current calendar year. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0034,Total Spend This Year,"Redshift > business_entity_commercial_district_fi_summary > total_spend_this_year
+Redshift > business_entity_fi_summary > total_spend_this_year
+Redshift > business_entity_summary > total_spend_this_year
+Redshift > consumer_business_entity_summary > total_spend_this_year
+Redshift > consumer_commercial_district_fi_summary > total_spend_this_year
+Redshift > consumer_commercial_district_summary > total_spend_this_year
+Redshift > commercial_district_fi_summary > total_spend_this_year
+Redshift > category_0_commercial_district_fi_summary > total_spend_this_year
+Redshift > consumer_summary > total_spend_this_year
+Redshift > fi_summary > total_spend_this_year
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_this_year
+Redshift > raw_descriptor_fi_summary > total_spend_this_year",decimal,Total spending in the current calendar year. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0035,Average Spend This Year,"Redshift > business_entity_commercial_district_fi_summary > average_spend_this_year
+Redshift > business_entity_fi_summary > average_spend_this_year
+Redshift > business_entity_summary > average_spend_this_year
+Redshift > consumer_business_entity_summary > average_spend_this_year
+Redshift > consumer_commercial_district_fi_summary > average_spend_this_year
+Redshift > consumer_commercial_district_summary > average_spend_this_year
+Redshift > commercial_district_fi_summary > average_spend_this_year
+Redshift > category_0_commercial_district_fi_summary > average_spend_this_year
+Redshift > consumer_summary > average_spend_this_year
+Redshift > fi_summary > average_spend_this_year
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_this_year
+Redshift > raw_descriptor_fi_summary > average_spend_this_year",decimal,Average spending per transaction in the current calendar year. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0036,Unique Consumers This Year,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_this_year
+Redshift > business_entity_fi_summary > unique_consumers_this_year
+Redshift > business_entity_summary > unique_consumers_this_year
+Redshift > consumer_business_entity_summary > unique_consumers_this_year
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_this_year
+Redshift > consumer_commercial_district_summary > unique_consumers_this_year
+Redshift > commercial_district_fi_summary > unique_consumers_this_year
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_this_year
+Redshift > fi_summary > unique_consumers_this_year
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_this_year
+Redshift > raw_descriptor_fi_summary > unique_consumers_this_year",integer,Number of unique consumers in the current calendar year. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0037,Transaction Count Last Year,"Redshift > business_entity_commercial_district_fi_summary > count_last_year
+Redshift > business_entity_fi_summary > count_last_year
+Redshift > business_entity_summary > count_last_year
+Redshift > consumer_business_entity_summary > count_last_year
+Redshift > consumer_commercial_district_fi_summary > count_last_year
+Redshift > consumer_commercial_district_summary > count_last_year
+Redshift > commercial_district_fi_summary > count_last_year
+Redshift > category_0_commercial_district_fi_summary > count_last_year
+Redshift > consumer_summary > count_last_year
+Redshift > fi_summary > count_last_year
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_year
+Redshift > raw_descriptor_fi_summary > count_last_year",integer,Number of transactions in the previous calendar year. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0038,Total Spend Last Year,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_year
+Redshift > business_entity_fi_summary > total_spend_last_year
+Redshift > business_entity_summary > total_spend_last_year
+Redshift > consumer_business_entity_summary > total_spend_last_year
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_year
+Redshift > consumer_commercial_district_summary > total_spend_last_year
+Redshift > commercial_district_fi_summary > total_spend_last_year
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_year
+Redshift > consumer_summary > total_spend_last_year
+Redshift > fi_summary > total_spend_last_year
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_year
+Redshift > raw_descriptor_fi_summary > total_spend_last_year",decimal,Total spending in the previous calendar year. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0039,Average Spend Last Year,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_year
+Redshift > business_entity_fi_summary > average_spend_last_year
+Redshift > business_entity_summary > average_spend_last_year
+Redshift > consumer_business_entity_summary > average_spend_last_year
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_year
+Redshift > consumer_commercial_district_summary > average_spend_last_year
+Redshift > commercial_district_fi_summary > average_spend_last_year
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_year
+Redshift > consumer_summary > average_spend_last_year
+Redshift > fi_summary > average_spend_last_year
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_year
+Redshift > raw_descriptor_fi_summary > average_spend_last_year",decimal,Average spending per transaction in the previous calendar year. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0040,Unique Consumers Last Year,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_year
+Redshift > business_entity_fi_summary > unique_consumers_last_year
+Redshift > business_entity_summary > unique_consumers_last_year
+Redshift > consumer_business_entity_summary > unique_consumers_last_year
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_year
+Redshift > consumer_commercial_district_summary > unique_consumers_last_year
+Redshift > commercial_district_fi_summary > unique_consumers_last_year
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_year
+Redshift > fi_summary > unique_consumers_last_year
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_year
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_year",integer,Number of unique consumers in the previous calendar year. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0041,Transaction Count This Quarter,"Redshift > business_entity_commercial_district_fi_summary > count_this_quarter
+Redshift > business_entity_fi_summary > count_this_quarter
+Redshift > business_entity_summary > count_this_quarter
+Redshift > consumer_business_entity_summary > count_this_quarter
+Redshift > consumer_commercial_district_fi_summary > count_this_quarter
+Redshift > consumer_commercial_district_summary > count_this_quarter
+Redshift > commercial_district_fi_summary > count_this_quarter
+Redshift > category_0_commercial_district_fi_summary > count_this_quarter
+Redshift > consumer_summary > count_this_quarter
+Redshift > fi_summary > count_this_quarter
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_this_quarter
+Redshift > raw_descriptor_fi_summary > count_this_quarter",integer,Number of transactions in the current calendar quarter. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0042,Total Spend This Quarter,"Redshift > business_entity_commercial_district_fi_summary > total_spend_this_quarter
+Redshift > business_entity_fi_summary > total_spend_this_quarter
+Redshift > business_entity_summary > total_spend_this_quarter
+Redshift > consumer_business_entity_summary > total_spend_this_quarter
+Redshift > consumer_commercial_district_fi_summary > total_spend_this_quarter
+Redshift > consumer_commercial_district_summary > total_spend_this_quarter
+Redshift > commercial_district_fi_summary > total_spend_this_quarter
+Redshift > category_0_commercial_district_fi_summary > total_spend_this_quarter
+Redshift > consumer_summary > total_spend_this_quarter
+Redshift > fi_summary > total_spend_this_quarter
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_this_quarter
+Redshift > raw_descriptor_fi_summary > total_spend_this_quarter",decimal,Total spending in the current calendar quarter. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0043,Average Spend This Quarter,"Redshift > business_entity_commercial_district_fi_summary > average_spend_this_quarter
+Redshift > business_entity_fi_summary > average_spend_this_quarter
+Redshift > business_entity_summary > average_spend_this_quarter
+Redshift > consumer_business_entity_summary > average_spend_this_quarter
+Redshift > consumer_commercial_district_fi_summary > average_spend_this_quarter
+Redshift > consumer_commercial_district_summary > average_spend_this_quarter
+Redshift > commercial_district_fi_summary > average_spend_this_quarter
+Redshift > category_0_commercial_district_fi_summary > average_spend_this_quarter
+Redshift > consumer_summary > average_spend_this_quarter
+Redshift > fi_summary > average_spend_this_quarter
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_this_quarter
+Redshift > raw_descriptor_fi_summary > average_spend_this_quarter",decimal,Average spending per transaction in the current calendar quarter. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0044,Unique Consumers This Quarter,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_this_quarter
+Redshift > business_entity_fi_summary > unique_consumers_this_quarter
+Redshift > business_entity_summary > unique_consumers_this_quarter
+Redshift > consumer_business_entity_summary > unique_consumers_this_quarter
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_this_quarter
+Redshift > consumer_commercial_district_summary > unique_consumers_this_quarter
+Redshift > commercial_district_fi_summary > unique_consumers_this_quarter
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_this_quarter
+Redshift > fi_summary > unique_consumers_this_quarter
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_this_quarter
+Redshift > raw_descriptor_fi_summary > unique_consumers_this_quarter",integer,Number of unique consumers in the current calendar quarter. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0045,Transaction Count Last Quarter,"Redshift > business_entity_commercial_district_fi_summary > count_last_quarter
+Redshift > business_entity_fi_summary > count_last_quarter
+Redshift > business_entity_summary > count_last_quarter
+Redshift > consumer_business_entity_summary > count_last_quarter
+Redshift > consumer_commercial_district_fi_summary > count_last_quarter
+Redshift > consumer_commercial_district_summary > count_last_quarter
+Redshift > commercial_district_fi_summary > count_last_quarter
+Redshift > category_0_commercial_district_fi_summary > count_last_quarter
+Redshift > consumer_summary > count_last_quarter
+Redshift > fi_summary > count_last_quarter
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_quarter
+Redshift > raw_descriptor_fi_summary > count_last_quarter",integer,Number of transactions in the previous calendar quarter. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0046,Total Spend Last Quarter,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_quarter
+Redshift > business_entity_fi_summary > total_spend_last_quarter
+Redshift > business_entity_summary > total_spend_last_quarter
+Redshift > consumer_business_entity_summary > total_spend_last_quarter
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_quarter
+Redshift > consumer_commercial_district_summary > total_spend_last_quarter
+Redshift > commercial_district_fi_summary > total_spend_last_quarter
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_quarter
+Redshift > consumer_summary > total_spend_last_quarter
+Redshift > fi_summary > total_spend_last_quarter
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_quarter
+Redshift > raw_descriptor_fi_summary > total_spend_last_quarter",decimal,Total spending in the previous calendar quarter. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0047,Average Spend Last Quarter,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_quarter
+Redshift > business_entity_fi_summary > average_spend_last_quarter
+Redshift > business_entity_summary > average_spend_last_quarter
+Redshift > consumer_business_entity_summary > average_spend_last_quarter
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_quarter
+Redshift > consumer_commercial_district_summary > average_spend_last_quarter
+Redshift > commercial_district_fi_summary > average_spend_last_quarter
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_quarter
+Redshift > consumer_summary > average_spend_last_quarter
+Redshift > fi_summary > average_spend_last_quarter
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_quarter
+Redshift > raw_descriptor_fi_summary > average_spend_last_quarter",decimal,Average spending per transaction in the previous calendar quarter. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0048,Unique Consumers Last Quarter,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_quarter
+Redshift > business_entity_fi_summary > unique_consumers_last_quarter
+Redshift > business_entity_summary > unique_consumers_last_quarter
+Redshift > consumer_business_entity_summary > unique_consumers_last_quarter
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_quarter
+Redshift > consumer_commercial_district_summary > unique_consumers_last_quarter
+Redshift > commercial_district_fi_summary > unique_consumers_last_quarter
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_quarter
+Redshift > fi_summary > unique_consumers_last_quarter
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_quarter
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_quarter",integer,Number of unique consumers in the previous calendar quarter. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0049,Transaction Count Two Quarters Ago,"Redshift > business_entity_commercial_district_fi_summary > count_two_quarters_ago
+Redshift > business_entity_fi_summary > count_two_quarters_ago
+Redshift > business_entity_summary > count_two_quarters_ago
+Redshift > consumer_business_entity_summary > count_two_quarters_ago
+Redshift > consumer_commercial_district_fi_summary > count_two_quarters_ago
+Redshift > consumer_commercial_district_summary > count_two_quarters_ago
+Redshift > commercial_district_fi_summary > count_two_quarters_ago
+Redshift > category_0_commercial_district_fi_summary > count_two_quarters_ago
+Redshift > consumer_summary > count_two_quarters_ago
+Redshift > fi_summary > count_two_quarters_ago
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_two_quarters_ago
+Redshift > raw_descriptor_fi_summary > count_two_quarters_ago",integer,Number of transactions two calendar quarters ago. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0050,Total Spend Two Quarters Ago,"Redshift > business_entity_commercial_district_fi_summary > total_spend_two_quarters_ago
+Redshift > business_entity_fi_summary > total_spend_two_quarters_ago
+Redshift > business_entity_summary > total_spend_two_quarters_ago
+Redshift > consumer_business_entity_summary > total_spend_two_quarters_ago
+Redshift > consumer_commercial_district_fi_summary > total_spend_two_quarters_ago
+Redshift > consumer_commercial_district_summary > total_spend_two_quarters_ago
+Redshift > commercial_district_fi_summary > total_spend_two_quarters_ago
+Redshift > category_0_commercial_district_fi_summary > total_spend_two_quarters_ago
+Redshift > consumer_summary > total_spend_two_quarters_ago
+Redshift > fi_summary > total_spend_two_quarters_ago
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_two_quarters_ago
+Redshift > raw_descriptor_fi_summary > total_spend_two_quarters_ago",decimal,Total spending two calendar quarters ago. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0051,Average Spend Two Quarters Ago,"Redshift > business_entity_commercial_district_fi_summary > averge_spend_two_quarters_ago
+Redshift > business_entity_fi_summary > averge_spend_two_quarters_ago
+Redshift > business_entity_summary > averge_spend_two_quarters_ago
+Redshift > consumer_business_entity_summary > averge_spend_two_quarters_ago
+Redshift > consumer_commercial_district_fi_summary > averge_spend_two_quarters_ago
+Redshift > consumer_commercial_district_summary > averge_spend_two_quarters_ago
+Redshift > commercial_district_fi_summary > averge_spend_two_quarters_ago
+Redshift > category_0_commercial_district_fi_summary > averge_spend_two_quarters_ago
+Redshift > consumer_summary > averge_spend_two_quarters_ago
+Redshift > fi_summary > averge_spend_two_quarters_ago
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > averge_spend_two_quarters_ago
+Redshift > raw_descriptor_fi_summary > averge_spend_two_quarters_ago",decimal,Average spending per transaction two calendar quarters ago. Note: Contains consistent typo 'averge' instead of 'average' across all source MVs. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0052,Unique Consumers Two Quarters Ago,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_two_quarters_ago
+Redshift > business_entity_fi_summary > unique_consumers_two_quarters_ago
+Redshift > business_entity_summary > unique_consumers_two_quarters_ago
+Redshift > consumer_business_entity_summary > unique_consumers_two_quarters_ago
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_two_quarters_ago
+Redshift > consumer_commercial_district_summary > unique_consumers_two_quarters_ago
+Redshift > commercial_district_fi_summary > unique_consumers_two_quarters_ago
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_two_quarters_ago
+Redshift > fi_summary > unique_consumers_two_quarters_ago
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_two_quarters_ago
+Redshift > raw_descriptor_fi_summary > unique_consumers_two_quarters_ago",integer,Number of unique consumers two calendar quarters ago. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0053,Transaction Count Three Quarters Ago,"Redshift > business_entity_commercial_district_fi_summary > count_three_quarters_ago
+Redshift > business_entity_fi_summary > count_three_quarters_ago
+Redshift > business_entity_summary > count_three_quarters_ago
+Redshift > consumer_business_entity_summary > count_three_quarters_ago
+Redshift > consumer_commercial_district_fi_summary > count_three_quarters_ago
+Redshift > consumer_commercial_district_summary > count_three_quarters_ago
+Redshift > commercial_district_fi_summary > count_three_quarters_ago
+Redshift > category_0_commercial_district_fi_summary > count_three_quarters_ago
+Redshift > consumer_summary > count_three_quarters_ago
+Redshift > fi_summary > count_three_quarters_ago
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_three_quarters_ago
+Redshift > raw_descriptor_fi_summary > count_three_quarters_ago",integer,Number of transactions three calendar quarters ago. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0054,Total Spend Three Quarters Ago,"Redshift > business_entity_commercial_district_fi_summary > total_spend_three_quarters_ago
+Redshift > business_entity_fi_summary > total_spend_three_quarters_ago
+Redshift > business_entity_summary > total_spend_three_quarters_ago
+Redshift > consumer_business_entity_summary > total_spend_three_quarters_ago
+Redshift > consumer_commercial_district_fi_summary > total_spend_three_quarters_ago
+Redshift > consumer_commercial_district_summary > total_spend_three_quarters_ago
+Redshift > commercial_district_fi_summary > total_spend_three_quarters_ago
+Redshift > category_0_commercial_district_fi_summary > total_spend_three_quarters_ago
+Redshift > consumer_summary > total_spend_three_quarters_ago
+Redshift > fi_summary > total_spend_three_quarters_ago
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_three_quarters_ago
+Redshift > raw_descriptor_fi_summary > total_spend_three_quarters_ago",decimal,Total spending three calendar quarters ago. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0055,Average Spend Three Quarters Ago,"Redshift > business_entity_commercial_district_fi_summary > average_spend_three_quarters_ago
+Redshift > business_entity_fi_summary > average_spend_three_quarters_ago
+Redshift > business_entity_summary > average_spend_three_quarters_ago
+Redshift > consumer_business_entity_summary > average_spend_three_quarters_ago
+Redshift > consumer_commercial_district_fi_summary > average_spend_three_quarters_ago
+Redshift > consumer_commercial_district_summary > average_spend_three_quarters_ago
+Redshift > commercial_district_fi_summary > average_spend_three_quarters_ago
+Redshift > category_0_commercial_district_fi_summary > average_spend_three_quarters_ago
+Redshift > consumer_summary > average_spend_three_quarters_ago
+Redshift > fi_summary > average_spend_three_quarters_ago
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_three_quarters_ago
+Redshift > raw_descriptor_fi_summary > average_spend_three_quarters_ago",decimal,Average spending per transaction three calendar quarters ago. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0056,Unique Consumers Three Quarters Ago,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_three_quarters_ago
+Redshift > business_entity_fi_summary > unique_consumers_three_quarters_ago
+Redshift > business_entity_summary > unique_consumers_three_quarters_ago
+Redshift > consumer_business_entity_summary > unique_consumers_three_quarters_ago
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_three_quarters_ago
+Redshift > consumer_commercial_district_summary > unique_consumers_three_quarters_ago
+Redshift > commercial_district_fi_summary > unique_consumers_three_quarters_ago
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_three_quarters_ago
+Redshift > fi_summary > unique_consumers_three_quarters_ago
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_three_quarters_ago
+Redshift > raw_descriptor_fi_summary > unique_consumers_three_quarters_ago",integer,Number of unique consumers three calendar quarters ago. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0057,Transaction Count This Week,"Redshift > business_entity_commercial_district_fi_summary > count_this_week
+Redshift > business_entity_fi_summary > count_this_week
+Redshift > business_entity_summary > count_this_week
+Redshift > consumer_business_entity_summary > count_this_week
+Redshift > consumer_commercial_district_fi_summary > count_this_week
+Redshift > consumer_commercial_district_summary > count_this_week
+Redshift > commercial_district_fi_summary > count_this_week
+Redshift > category_0_commercial_district_fi_summary > count_this_week
+Redshift > consumer_summary > count_this_week
+Redshift > fi_summary > count_this_week
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_this_week
+Redshift > raw_descriptor_fi_summary > count_this_week",integer,Number of transactions in the current calendar week. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0058,Total Spend This Week,"Redshift > business_entity_commercial_district_fi_summary > total_spend_this_week
+Redshift > business_entity_fi_summary > total_spend_this_week
+Redshift > business_entity_summary > total_spend_this_week
+Redshift > consumer_business_entity_summary > total_spend_this_week
+Redshift > consumer_commercial_district_fi_summary > total_spend_this_week
+Redshift > consumer_commercial_district_summary > total_spend_this_week
+Redshift > commercial_district_fi_summary > total_spend_this_week
+Redshift > category_0_commercial_district_fi_summary > total_spend_this_week
+Redshift > consumer_summary > total_spend_this_week
+Redshift > fi_summary > total_spend_this_week
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_this_week
+Redshift > raw_descriptor_fi_summary > total_spend_this_week",decimal,Total spending in the current calendar week. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0059,Average Spend This Week,"Redshift > business_entity_commercial_district_fi_summary > average_spend_this_week
+Redshift > business_entity_fi_summary > average_spend_this_week
+Redshift > business_entity_summary > average_spend_this_week
+Redshift > consumer_business_entity_summary > average_spend_this_week
+Redshift > consumer_commercial_district_fi_summary > average_spend_this_week
+Redshift > consumer_commercial_district_summary > average_spend_this_week
+Redshift > commercial_district_fi_summary > average_spend_this_week
+Redshift > category_0_commercial_district_fi_summary > average_spend_this_week
+Redshift > consumer_summary > average_spend_this_week
+Redshift > fi_summary > average_spend_this_week
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_this_week
+Redshift > raw_descriptor_fi_summary > average_spend_this_week",decimal,Average spending per transaction in the current calendar week. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0060,Unique Consumers This Week,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_this_week
+Redshift > business_entity_fi_summary > unique_consumers_this_week
+Redshift > business_entity_summary > unique_consumers_this_week
+Redshift > consumer_business_entity_summary > unique_consumers_this_week
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_this_week
+Redshift > consumer_commercial_district_summary > unique_consumers_this_week
+Redshift > commercial_district_fi_summary > unique_consumers_this_week
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_this_week
+Redshift > fi_summary > unique_consumers_this_week
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_this_week
+Redshift > raw_descriptor_fi_summary > unique_consumers_this_week",integer,Number of unique consumers in the current calendar week. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0061,Transaction Count Last Week,"Redshift > business_entity_commercial_district_fi_summary > count_last_week
+Redshift > business_entity_fi_summary > count_last_week
+Redshift > business_entity_summary > count_last_week
+Redshift > consumer_business_entity_summary > count_last_week
+Redshift > consumer_commercial_district_fi_summary > count_last_week
+Redshift > consumer_commercial_district_summary > count_last_week
+Redshift > commercial_district_fi_summary > count_last_week
+Redshift > category_0_commercial_district_fi_summary > count_last_week
+Redshift > consumer_summary > count_last_week
+Redshift > fi_summary > count_last_week
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > count_last_week
+Redshift > raw_descriptor_fi_summary > count_last_week",integer,Number of transactions in the previous calendar week. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0062,Total Spend Last Week,"Redshift > business_entity_commercial_district_fi_summary > total_spend_last_week
+Redshift > business_entity_fi_summary > total_spend_last_week
+Redshift > business_entity_summary > total_spend_last_week
+Redshift > consumer_business_entity_summary > total_spend_last_week
+Redshift > consumer_commercial_district_fi_summary > total_spend_last_week
+Redshift > consumer_commercial_district_summary > total_spend_last_week
+Redshift > commercial_district_fi_summary > total_spend_last_week
+Redshift > category_0_commercial_district_fi_summary > total_spend_last_week
+Redshift > consumer_summary > total_spend_last_week
+Redshift > fi_summary > total_spend_last_week
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > total_spend_last_week
+Redshift > raw_descriptor_fi_summary > total_spend_last_week",decimal,Total spending in the previous calendar week. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0063,Average Spend Last Week,"Redshift > business_entity_commercial_district_fi_summary > average_spend_last_week
+Redshift > business_entity_fi_summary > average_spend_last_week
+Redshift > business_entity_summary > average_spend_last_week
+Redshift > consumer_business_entity_summary > average_spend_last_week
+Redshift > consumer_commercial_district_fi_summary > average_spend_last_week
+Redshift > consumer_commercial_district_summary > average_spend_last_week
+Redshift > commercial_district_fi_summary > average_spend_last_week
+Redshift > category_0_commercial_district_fi_summary > average_spend_last_week
+Redshift > consumer_summary > average_spend_last_week
+Redshift > fi_summary > average_spend_last_week
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > average_spend_last_week
+Redshift > raw_descriptor_fi_summary > average_spend_last_week",decimal,Average spending per transaction in the previous calendar week. Available across all 12 summary materialized views with time-based metrics.,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0064,Unique Consumers Last Week,"Redshift > business_entity_commercial_district_fi_summary > unique_consumers_last_week
+Redshift > business_entity_fi_summary > unique_consumers_last_week
+Redshift > business_entity_summary > unique_consumers_last_week
+Redshift > consumer_business_entity_summary > unique_consumers_last_week
+Redshift > consumer_commercial_district_fi_summary > unique_consumers_last_week
+Redshift > consumer_commercial_district_summary > unique_consumers_last_week
+Redshift > commercial_district_fi_summary > unique_consumers_last_week
+Redshift > category_0_commercial_district_fi_summary > unique_consumers_last_week
+Redshift > fi_summary > unique_consumers_last_week
+Redshift > consumer_commercial_district_fi_summary_with_neighbors > unique_consumers_last_week
+Redshift > raw_descriptor_fi_summary > unique_consumers_last_week",integer,Number of unique consumers in the previous calendar week. Available across 11 summary materialized views (not available in consumer_summary).,"Varies by source: business_entity_id, commercial_district_id, fiid, consumer_id, category_0, account_id, raw_descriptor",Available in Redshift
+DP_RMV_0065,Business Entity Priority Percent CD Consumers,"Redshift > business_entity_fi_priority_score > percent_cd_consumers_active_from_fi_total_last_180_days
+Redshift > business_entity_fi_priority_score_with_neighbors > percent_cd_consumers_active_from_fi_total_last_180_days",decimal,Percentage of commercial district consumers active from FI total over last 180 days. This priority scoring metric measures relative consumer activity for business entity prioritization. Available in both standard and with-neighbors priority scoring contexts.,"business_entity_id, commercial_district_id, fiid",Available in Redshift
+DP_RMV_0066,Business Entity Priority Percent Category Spend,"Redshift > business_entity_fi_priority_score > percent_category_0_spend_from_cd_total_last_180_days
+Redshift > business_entity_fi_priority_score_with_neighbors > percent_category_0_spend_from_cd_total_last_180_days",decimal,Percentage of category 0 spend from commercial district total over last 180 days. This priority scoring metric measures category spending concentration for business entity prioritization. Available in both standard and with-neighbors priority scoring contexts.,"business_entity_id, commercial_district_id, fiid",Available in Redshift
+DP_RMV_0067,Business Entity Priority Percent Transaction Count,"Redshift > business_entity_fi_priority_score > percent_be_tx_count_from_cd_category_0_total_last_180_days
+Redshift > business_entity_fi_priority_score_with_neighbors > percent_be_tx_count_from_cd_category_0_total_last_180_days",decimal,Percentage of business entity transaction count from commercial district category 0 total over last 180 days. This priority scoring metric measures transaction volume concentration for business entity prioritization. Available in both standard and with-neighbors priority scoring contexts.,"business_entity_id, commercial_district_id, fiid",Available in Redshift
+DP_RMV_0068,Business Entity Priority Raw Score,"Redshift > business_entity_fi_priority_score > raw_score
+Redshift > business_entity_fi_priority_score_with_neighbors > raw_score",decimal,Raw priority score before normalization for business entities. This calculated metric combines multiple factors to create a composite priority score before scaling to 0-1 range. Available in both standard and with-neighbors priority scoring contexts.,"business_entity_id, commercial_district_id, fiid",Available in Redshift
+DP_RMV_0069,Business Entity Priority Normalized Score,"Redshift > business_entity_fi_priority_score > normalized_score
+Redshift > business_entity_fi_priority_score_with_neighbors > normalized_score",decimal,Normalized priority score (0-1 scale) for business entities. This final calculated metric scales raw scores to enable consistent prioritization comparison across different FIs and time periods. Available in both standard and with-neighbors priority scoring contexts.,"business_entity_id, commercial_district_id, fiid",Available in Redshift
+DP_RMV_0070,Commercial District Relationship,Redshift > business_entity_fi_priority_score_with_neighbors > commercial_district_relationship,varchar,Relationship type between business entity and commercial district (member or neighbor). This metadata indicates whether the business entity is directly within the commercial district or a neighboring entity included for proximity analysis. Unique to with-neighbors priority scoring context.,"business_entity_id, commercial_district_id, fiid",Available in Redshift
+DP_RMV_0071,Offers Published Count,Redshift > business_entity_fi_summary > offers_published,integer,Number of offers published to consumers for this business entity. This campaign metric measures offer distribution volume and appears in business entity FI summary views for campaign analysis. Unique to business entity FI summary.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0072,Offers Published Unique Consumers,Redshift > business_entity_fi_summary > offers_published_unique,integer,Number of unique consumers who saw offers for this business entity. This campaign metric measures offer reach and appears in business entity FI summary views for campaign effectiveness analysis. Unique to business entity FI summary.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0073,Offers Activated Count,Redshift > business_entity_fi_summary > offers_activated,integer,Number of offers activated by consumers for this business entity. This campaign metric measures offer engagement and appears in business entity FI summary views for campaign performance analysis. Unique to business entity FI summary.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0074,Offers Activated Unique Consumers,Redshift > business_entity_fi_summary > offers_activated_unique,integer,Number of unique consumers who activated offers for this business entity. This campaign metric measures activation reach and appears in business entity FI summary views for campaign engagement analysis. Unique to business entity FI summary.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0075,Offers Redeemed Count,Redshift > business_entity_fi_summary > offers_redeemed,integer,Number of offers redeemed for this business entity. This campaign metric measures offer completion and appears in business entity FI summary views for campaign conversion analysis. Unique to business entity FI summary.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0076,Offers Redeemed Unique Consumers,Redshift > business_entity_fi_summary > offers_redeemed_unique,integer,Number of unique consumers who redeemed offers for this business entity. This campaign metric measures redemption reach and appears in business entity FI summary views for campaign success analysis. Unique to business entity FI summary.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0077,Entity Status,Redshift > business_entity_fi_summary > entity_status,varchar,Status of business entity within Plink system (Not Enrolled/Jump Start/VL Basic/Premium). This metadata categorizes entity engagement level and appears in business entity FI summary for relationship classification. Unique to business entity FI summary.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0078,Entity Featured Status,Redshift > business_entity_fi_summary > entity_featured,boolean,"Whether business entity is connected to a featured store (1 for featured, 0 for not featured). This metadata indicates promotion status and appears in business entity FI summary for marketing prioritization. Unique to business entity FI summary.","business_entity_id, fiid",Available in Redshift
+DP_RMV_0079,Entity Service Area Status,Redshift > business_entity_fi_summary > in_service_area,boolean,Whether business entity is in the FI service area (part or neighbor of a commercial district). This geographic metadata appears in business entity FI summary for service area analysis. Unique to business entity FI summary.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0080,Consumer Priority Percent CD Spend,Redshift > consumer_business_entity_priority_score > percent_consumer_cd_spend_from_consumer_total_last_180_days,decimal,Percentage of consumer commercial district spend from consumer total over last 180 days. This consumer priority scoring metric measures district spending concentration for personalized recommendations. Unique to consumer priority scoring.,"consumer_id, business_entity_id",Available in Redshift
+DP_RMV_0081,Consumer Priority Percent BE Spend,Redshift > consumer_business_entity_priority_score > percent_consumer_be_spend_from_consumer_cd_total_last_180_days,decimal,Percentage of consumer business entity spend from consumer commercial district total over last 180 days. This consumer priority scoring metric measures entity spending concentration for personalized recommendations. Unique to consumer priority scoring.,"consumer_id, business_entity_id",Available in Redshift
+DP_RMV_0082,Consumer Priority Percent BE from CD FI,Redshift > consumer_business_entity_priority_score > percent_be_spend_from_cd_fi_total_last_180_days,decimal,Percentage of business entity spend from commercial district FI total over last 180 days. This consumer priority scoring metric measures entity popularity for personalized recommendations. Unique to consumer priority scoring.,"consumer_id, business_entity_id",Available in Redshift
+DP_RMV_0083,Consumer BE Transaction Count,Redshift > consumer_business_entity_priority_score > consumer_be_tx_count_last_180_days,integer,Consumer business entity transaction count over last 180 days. This consumer priority metric measures transaction frequency for personalized recommendation scoring. Unique to consumer priority scoring.,"consumer_id, business_entity_id",Available in Redshift
+DP_RMV_0084,Consumer Priority Raw Score,Redshift > consumer_business_entity_priority_score > raw_score,decimal,Raw priority score before normalization for consumer-business entity pairs. This calculated metric combines multiple consumer factors to create a composite priority score before scaling. Unique to consumer priority scoring.,"consumer_id, business_entity_id",Available in Redshift
+DP_RMV_0085,Consumer Priority Normalized Score,Redshift > consumer_business_entity_priority_score > normalized_score,decimal,Normalized priority score (0-1 scale) for consumer-business entity pairs. This final calculated metric scales raw scores to enable consistent personalized recommendation ranking. Unique to consumer priority scoring.,"consumer_id, business_entity_id",Available in Redshift
+DP_RMV_0086,Consumer Store Score,Redshift > consumer_store_score > score,decimal,Consumer affinity score for specific stores. This calculated metric measures consumer preference for individual stores and enables personalized store recommendations. Unique to store scoring.,"consumer_id, store_id",Available in Redshift & Main DB
+DP_RMV_0087,Consumer Store Source,Redshift > consumer_store_score > source,varchar,Source type for consumer-store relationship (featured/engaged/opted-in/top-verified-local/relevant-cd/relevant-cd-neighbor). This metadata indicates how the consumer-store pairing was determined and appears in store scoring for recommendation strategy analysis. Unique to store scoring.,"consumer_id, store_id",Available in Redshift & Main DB
+DP_RMV_0088,Total Consumers Enrolled,Redshift > fi_summary > total_consumers_enrolled,integer,Total number of consumers enrolled in purchase rewards for the FI. This enrollment metric appears in FI summary and measures overall FI customer base size. Unique to FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0089,Available Merchants Count,Redshift > fi_summary > available_merchants_count,integer,Count of available verified local merchants within FI commercial districts. This merchant metric appears in FI summary and measures merchant network size available to FI customers. Unique to FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0090,Offers Activated Available Merchants 30D,Redshift > fi_summary > offers_activated_available_merchants_30d,integer,Offer activations from available merchants in last 30 days. This campaign metric appears in FI summary and measures recent campaign engagement across the FI's merchant network. Unique to FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0091,Offers Redeemed Available Merchants 30D,Redshift > fi_summary > offers_redeemed_available_merchants_30d,integer,Offer redemptions from available merchants in last 30 days. This campaign metric appears in FI summary and measures recent campaign conversion across the FI's merchant network. Unique to FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0092,Active Merchants Count,Redshift > fi_summary > active_merchants_count,integer,"Count of active merchants (verified local, not internally registered) within FI commercial districts. This merchant metric appears in FI summary and measures actively participating merchant network size. Unique to FI-level aggregation.",fiid,Available in Redshift
+DP_RMV_0093,Redemptions Amount 30D,Redshift > fi_summary > redemptions_amount_30d,decimal,Total redemption savings amount in last 30 days for the FI. This financial metric appears in FI summary and measures customer savings generated through the rewards program. Unique to FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0094,Transaction Amount Redemptions 30D,Redshift > fi_summary > transaction_amount_redemptions_30d,decimal,Total transaction amount with redemptions in last 30 days for the FI. This financial metric appears in FI summary and measures spending volume that generated customer savings. Unique to FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0095,Active Cardholders 30D,Redshift > fi_summary > active_cardholders_1tx_1oauth_30d,integer,Active cardholders with at least 1 transaction and 1 login in last 30 days. This activity metric appears in FI summary and measures engaged customer base size for the FI. Unique to FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0096,Cardholders Covered 30D,Redshift > fi_summary > cardholders_covered_30d,integer,Cardholders with transactions in districts with active merchants in last 30 days. This coverage metric appears in FI summary and measures FI customer base with access to rewards. Unique to FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0097,Most Common Brand ID,Redshift > raw_descriptors > most_common_brand_id,varchar,Most frequently associated brand identifier for the raw descriptor. This metadata appears in raw descriptor analysis and indicates the predominant brand linked to the descriptor. Unique to raw descriptor analysis.,raw_descriptor,Available in Redshift
+DP_RMV_0098,Descriptor Status,Redshift > raw_descriptors > status,varchar,Processing status of the raw descriptor (skipped/rejected/resolved/pending). This metadata appears in raw descriptor analysis and tracks the descriptor processing workflow state. Unique to raw descriptor analysis.,raw_descriptor,Available in Redshift
+DP_RMV_0099,Commercial District Relationship,Redshift > business_entity_commercial_district_fi_summary > commercial_district_relationship,varchar,Relationship type between business entity and commercial district (member or neighbor). This metadata indicates whether the business entity is directly within the commercial district or a neighboring entity included for comprehensive analysis. Available in business entity + commercial district + FI aggregation.,"business_entity_id, commercial_district_id, fiid",Available in Redshift
+DP_RMV_0100,Consumer Count,Redshift > business_entity_commercial_district_fi_summary > consumer_count,integer,Number of unique consumers for the business entity + commercial district + FI combination. This metric measures distinct consumer reach at this specific aggregation level. Available only in business entity + commercial district + FI aggregation.,"business_entity_id, commercial_district_id, fiid",Available in Redshift
+DP_RMV_0101,Offers Published Count,Redshift > business_entity_fi_summary > offers_published,integer,Number of offers published to consumers for this business entity. This campaign metric measures offer distribution volume and tracks marketing reach across the FI customer base. Available only in business entity + FI aggregation.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0102,Offers Published Unique Consumers,Redshift > business_entity_fi_summary > offers_published_unique,integer,Number of unique consumers who saw offers for this business entity. This campaign metric measures offer reach diversity and tracks how many different customers received marketing offers. Available only in business entity + FI aggregation.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0103,Offers Activated Count,Redshift > business_entity_fi_summary > offers_activated,integer,Number of offers activated by consumers for this business entity. This campaign metric measures customer engagement with offers and tracks conversion from offer presentation to activation. Available only in business entity + FI aggregation.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0104,Offers Activated Unique Consumers,Redshift > business_entity_fi_summary > offers_activated_unique,integer,Number of unique consumers who activated offers for this business entity. This campaign metric measures activation reach diversity and tracks how many different customers engaged with offers. Available only in business entity + FI aggregation.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0105,Offers Redeemed Count,Redshift > business_entity_fi_summary > offers_redeemed,integer,Number of offers redeemed for this business entity. This campaign metric measures final conversion success and tracks completed offer transactions that generated customer savings. Available only in business entity + FI aggregation.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0106,Offers Redeemed Unique Consumers,Redshift > business_entity_fi_summary > offers_redeemed_unique,integer,Number of unique consumers who redeemed offers for this business entity. This campaign metric measures redemption reach diversity and tracks how many different customers completed offer transactions. Available only in business entity + FI aggregation.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0107,Entity Status,Redshift > business_entity_fi_summary > entity_status,varchar,Status of business entity within Plink system (Not Enrolled/Jump Start/VL Basic/Premium). This metadata categorizes the merchant relationship level and indicates engagement tier with the platform. Available only in business entity + FI aggregation.,"business_entity_id, fiid",Available in Redshift
+DP_RMV_0108,Entity Featured Status,Redshift > business_entity_fi_summary > entity_featured,boolean,"Whether business entity is connected to a featured store (1 for featured, NULL for not featured). This metadata indicates promotional status and marketing priority within the FI's merchant network. Available only in business entity + FI aggregation.","business_entity_id, fiid",Available in Redshift
+DP_RMV_0109,Entity Service Area Status,Redshift > business_entity_fi_summary > in_service_area,boolean,"Whether business entity is in the FI service area (1 for in area, 0 for out of area). This geographic metadata indicates if the merchant operates within the FI's commercial district coverage. Available only in business entity + FI aggregation.","business_entity_id, fiid",Available in Redshift
+DP_RMV_0110,Commercial District Eligibility Status,Redshift > commercial_district_fi_summary > eligible_2500account_1tx_1oauth_30d,boolean,"Whether commercial district is eligible based on having at least 2500 accounts with 1+ transaction and 1+ login in last 30 days (TRUE for eligible, FALSE for not eligible). This qualification metric determines district viability for program participation. Available only in commercial district + FI aggregation.","commercial_district_id, fiid",Available in Redshift
+DP_RMV_0111,Commercial District Total Entities,Redshift > commercial_district_fi_summary > cd_total_entities,integer,Total number of business entities within the commercial district. This metric measures the complete merchant network size in the district regardless of verification or activity status. Available only in commercial district + FI aggregation.,"commercial_district_id, fiid",Available in Redshift
+DP_RMV_0112,Commercial District Local Entities,Redshift > commercial_district_fi_summary > cd_local_entities,integer,Total number of verified local business entities within the commercial district. This metric measures the qualified local merchant network size available for customer rewards programs. Available only in commercial district + FI aggregation.,"commercial_district_id, fiid",Available in Redshift
+DP_RMV_0113,Business Entity Transaction Count 30D,Redshift > commercial_district_fi_summary > be_tx_count_30d,integer,Number of business entities in the commercial district that had transactions in the last 30 days. This activity metric measures recent merchant participation and engagement within the district. Available only in commercial district + FI aggregation.,"commercial_district_id, fiid",Available in Redshift
+DP_RMV_0114,Consumer Count 30D,Redshift > commercial_district_fi_summary > consumer_count_30d,integer,Number of consumers who transacted in the commercial district in the last 30 days. This activity metric measures recent customer engagement and district utilization. Available only in commercial district + FI aggregation.,"commercial_district_id, fiid",Available in Redshift
+DP_RMV_0115,Total Consumers Enrolled,Redshift > fi_summary > total_consumers_enrolled,integer,Total number of consumers enrolled in purchase rewards program for the FI. This enrollment metric measures the FI's overall customer base size participating in the rewards program. Available only in FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0116,Available Merchants Count,Redshift > fi_summary > available_merchants_count,integer,Count of available verified local merchants within FI commercial districts. This merchant network metric measures the total merchant inventory available to FI customers for earning rewards. Available only in FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0117,Offers Activated Available Merchants 30D,Redshift > fi_summary > offers_activated_available_merchants_30d,integer,Number of offer activations from available merchants in last 30 days. This campaign performance metric measures recent customer engagement with the available merchant network. Available only in FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0118,Offers Redeemed Available Merchants 30D,Redshift > fi_summary > offers_redeemed_available_merchants_30d,integer,Number of offer redemptions from available merchants in last 30 days. This campaign conversion metric measures recent customer transaction completion with the available merchant network. Available only in FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0119,Active Merchants Count,Redshift > fi_summary > active_merchants_count,integer,"Count of active merchants (verified local, not internally registered) within FI commercial districts. This merchant activity metric measures the engaged merchant network size currently participating in customer transactions. Available only in FI-level aggregation.",fiid,Available in Redshift
+DP_RMV_0120,Redemptions Amount 30D,Redshift > fi_summary > redemptions_amount_30d,decimal,Total dollar amount of customer savings from redemptions in last 30 days for the FI. This financial benefit metric measures the monetary value delivered to customers through the rewards program. Available only in FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0121,Transaction Amount Redemptions 30D,Redshift > fi_summary > transaction_amount_redemptions_30d,decimal,Total transaction amount that generated customer redemptions in last 30 days for the FI. This financial activity metric measures spending volume that triggered customer savings. Available only in FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0122,Active Cardholders 30D,Redshift > fi_summary > active_cardholders_1tx_1oauth_30d,integer,Number of cardholders with at least 1 transaction and 1 login in last 30 days. This engagement metric measures the active customer base size that is both transacting and digitally engaged with the platform. Available only in FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0123,Cardholders Covered 30D,Redshift > fi_summary > cardholders_covered_30d,integer,Number of cardholders with transactions in districts with active merchants in last 30 days. This coverage metric measures the FI customer base that has access to earn rewards through available merchant network. Available only in FI-level aggregation.,fiid,Available in Redshift
+DP_RMV_0124,Unique Account Count (All Time),Redshift > oath_summary_by_id > unique_account_IDs,integer,Distinct count of bank accounts linked across all time.,fiid,Available in Redshift
+DP_RMV_0125,Unique OAuth Sessions (All Time),Redshift > oath_summary_by_id > unique_oauth_sessions,integer,Total number of OAuth sessions across all time.,fiid,Available in Redshift
+DP_RMV_0126,Unique OAuth Sessions (Last 7 Days),Redshift > oath_summary_by_id > unique_oauth_sessions_last_7_days,integer,OAuth sessions occurring in the last 7 days.,fiid,Available in Redshift
+DP_RMV_0127,Unique Account Count (Last 7 Days),Redshift > oath_summary_by_id > unique_account_IDs_last_7_days,integer,Distinct linked accounts observed in the last 7 days.,fiid,Available in Redshift
+DP_RMV_0128,Offer Activations (L30d),Redshift > sales_management > offer_activ_last_30_days,integer,Offer activations in the last 30 days for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0129,Offer Activations (L30–60d),Redshift > sales_management > offer_activ_last_30_to_60_days,integer,Offer activations from 30–60 days ago for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0130,Offer Activations (L60–90d),Redshift > sales_management > offer_activ_last_60_to_90_days,integer,Offer activations from 60–90 days ago for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0131,Offer Redemptions (All-time),Redshift > sales_management > offer_redemp_all_time,integer,Offer redemptions for all time for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0132,Offer Redemptions (L30d),Redshift > sales_management > offer_redemp_last_30_days,integer,Offer redemptions in the last 30 days for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0133,Offer Redemptions (L30–60d),Redshift > sales_management > offer_redemp_last_30_to_60_days,integer,Offer redemptions from 30–60 days ago for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0134,Offer Redemptions (L60–90d),Redshift > sales_management > offer_redemp_last_60_to_90_days,integer,Offer redemptions from 60–90 days ago for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0135,Offers Published (L30d),Redshift > sales_management > offers_pub_last_30_days,integer,Offers published in the last 30 days for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0136,Offers Published (L30–60d),Redshift > sales_management > offers_pub_last_30_to_60_days,integer,Offers published from 30–60 days ago for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0137,Offers Published (L60–90d),Redshift > sales_management > offers_pub_last_60_to_90_days,integer,Offers published from 60–90 days ago for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0138,Redeemers Unique (L90d),Redshift > sales_management > offer_redemp_count_unique_customers_90_days,integer,Unique consumers who redeemed offers in the last 90 days for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0139,Activators Unique (L90d),Redshift > sales_management > offer_activ_count_unique_customers_90_days,integer,Unique consumers who activated offers in the last 90 days for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0140,Viewers Unique (L90d),Redshift > sales_management > offers_pub_count_unique_customers_90_days,integer,Unique consumers who viewed offers in the last 90 days for a store/business.,"business_id, store_id",Available in Redshift
+DP_RMV_0141,,,,,,
+DP_RMV_0142,,,,,,
+DP_RMV_0143,,,,,,
+DP_RMV_0144,,,,,,
+DP_RMV_0145,,,,,,
+DP_RMV_0146,,,,,,
+DP_RMV_0147,,,,,,
+DP_RMV_0148,,,,,,
+DP_RMV_0149,,,,,,
+DP_RMV_0150,,,,,,
+DP_RMV_0151,,,,,,
+DP_RMV_0152,,,,,,
+DP_RMV_0153,,,,,,
+DP_RMV_0154,,,,,,
+DP_RMV_0155,,,,,,
+DP_RMV_0156,,,,,,
+DP_RMV_0157,,,,,,
+DP_RMV_0158,,,,,,
+DP_RMV_0159,,,,,,
+DP_RMV_0160,,,,,,
+DP_RMV_0161,,,,,,
+DP_RMV_0162,,,,,,
+DP_RMV_0163,,,,,,
+DP_RMV_0164,,,,,,
+DP_RMV_0165,,,,,,
+DP_RMV_0166,,,,,,
+DP_RMV_0167,,,,,,
+DP_RMV_0168,,,,,,
+DP_RMV_0169,,,,,,
+DP_RMV_0170,,,,,,
+DP_RMV_0171,,,,,,
+DP_RMV_0172,,,,,,
+DP_RMV_0173,,,,,,
+DP_RMV_0174,,,,,,
+DP_RMV_0175,,,,,,
+DP_RMV_0176,,,,,,
+DP_RMV_0177,,,,,,
+DP_RMV_0178,,,,,,
+DP_RMV_0179,,,,,,
+DP_RMV_0180,,,,,,
+DP_RMV_0181,,,,,,
+DP_RMV_0182,,,,,,
+DP_RMV_0183,,,,,,
+DP_RMV_0184,,,,,,
+DP_RMV_0185,,,,,,
+DP_RMV_0186,,,,,,
+DP_RMV_0187,,,,,,
+DP_RMV_0188,,,,,,
+DP_RMV_0189,,,,,,
+DP_RMV_0190,,,,,,
+DP_RMV_0191,,,,,,
+DP_RMV_0192,,,,,,
+DP_RMV_0193,,,,,,
+DP_RMV_0194,,,,,,
+DP_RMV_0195,,,,,,
+DP_RMV_0196,,,,,,
+DP_RMV_0197,,,,,,
+DP_RMV_0198,,,,,,
+DP_RMV_0199,,,,,,
+DP_RMV_0200,,,,,,
+DP_RMV_0201,,,,,,
+DP_RMV_0202,,,,,,
+DP_RMV_0203,,,,,,
+DP_RMV_0204,,,,,,
+DP_RMV_0205,,,,,,
+DP_RMV_0206,,,,,,
+DP_RMV_0207,,,,,,
+DP_RMV_0208,,,,,,
+DP_RMV_0209,,,,,,
+DP_RMV_0210,,,,,,
+DP_RMV_0211,,,,,,
+DP_RMV_0212,,,,,,
+DP_RMV_0213,,,,,,
+DP_RMV_0214,,,,,,
+DP_RMV_0215,,,,,,
+DP_RMV_0216,,,,,,
+DP_RMV_0217,,,,,,
+DP_RMV_0218,,,,,,
+DP_RMV_0219,,,,,,
+DP_RMV_0220,,,,,,
+DP_RMV_0221,,,,,,
+DP_RMV_0222,,,,,,
+DP_RMV_0223,,,,,,
+DP_RMV_0224,,,,,,
+DP_RMV_0225,,,,,,
+DP_RMV_0226,,,,,,
+DP_RMV_0227,,,,,,
+DP_RMV_0228,,,,,,
+DP_RMV_0229,,,,,,
+DP_RMV_0230,,,,,,
+DP_RMV_0231,,,,,,
+DP_RMV_0232,,,,,,
+DP_RMV_0233,,,,,,
+DP_RMV_0234,,,,,,
+DP_RMV_0235,,,,,,
+DP_RMV_0236,,,,,,
+DP_RMV_0237,,,,,,
+DP_RMV_0238,,,,,,
+DP_RMV_0239,,,,,,
+DP_RMV_0240,,,,,,
+DP_RMV_0241,,,,,,
+DP_RMV_0242,,,,,,
+DP_RMV_0243,,,,,,
+DP_RMV_0244,,,,,,
+DP_RMV_0245,,,,,,
+DP_RMV_0246,,,,,,
+DP_RMV_0247,,,,,,
+DP_RMV_0248,,,,,,
+DP_RMV_0249,,,,,,
+DP_RMV_0250,,,,,,
+DP_RMV_0251,,,,,,
+DP_RMV_0252,,,,,,
+DP_RMV_0253,,,,,,
+DP_RMV_0254,,,,,,
+DP_RMV_0255,,,,,,
+DP_RMV_0256,,,,,,
+DP_RMV_0257,,,,,,
+DP_RMV_0258,,,,,,
+DP_RMV_0259,,,,,,
+DP_RMV_0260,,,,,,
+DP_RMV_0261,,,,,,
+DP_RMV_0262,,,,,,
+DP_RMV_0263,,,,,,
+DP_RMV_0264,,,,,,
+DP_RMV_0265,,,,,,
+DP_RMV_0266,,,,,,
+DP_RMV_0267,,,,,,
+DP_RMV_0268,,,,,,
+DP_RMV_0269,,,,,,
+DP_RMV_0270,,,,,,
+DP_RMV_0271,,,,,,
+DP_RMV_0272,,,,,,
+DP_RMV_0273,,,,,,
+DP_RMV_0274,,,,,,
+DP_RMV_0275,,,,,,
+DP_RMV_0276,,,,,,
+DP_RMV_0277,,,,,,
+DP_RMV_0278,,,,,,
+DP_RMV_0279,,,,,,
+DP_RMV_0280,,,,,,
+DP_RMV_0281,,,,,,
+DP_RMV_0282,,,,,,
+DP_RMV_0283,,,,,,
+DP_RMV_0284,,,,,,
+DP_RMV_0285,,,,,,
+DP_RMV_0286,,,,,,
+DP_RMV_0287,,,,,,
+DP_RMV_0288,,,,,,
+DP_RMV_0289,,,,,,
+DP_RMV_0290,,,,,,
+DP_RMV_0291,,,,,,
+DP_RMV_0292,,,,,,
+DP_RMV_0293,,,,,,
+DP_RMV_0294,,,,,,
+DP_RMV_0295,,,,,,
+DP_RMV_0296,,,,,,
+DP_RMV_0297,,,,,,
+DP_RMV_0298,,,,,,
+DP_RMV_0299,,,,,,
+DP_RMV_0300,,,,,,
+DP_RMV_0301,,,,,,
+DP_RMV_0302,,,,,,
+DP_RMV_0303,,,,,,
+DP_RMV_0304,,,,,,
+DP_RMV_0305,,,,,,
+DP_RMV_0306,,,,,,
+DP_RMV_0307,,,,,,
+DP_RMV_0308,,,,,,
+DP_RMV_0309,,,,,,
+DP_RMV_0310,,,,,,
+DP_RMV_0311,,,,,,
+DP_RMV_0312,,,,,,
+DP_RMV_0313,,,,,,
+DP_RMV_0314,,,,,,
+DP_RMV_0315,,,,,,
+DP_RMV_0316,,,,,,
+DP_RMV_0317,,,,,,
+DP_RMV_0318,,,,,,
+DP_RMV_0319,,,,,,
+DP_RMV_0320,,,,,,
+DP_RMV_0321,,,,,,
+DP_RMV_0322,,,,,,
+DP_RMV_0323,,,,,,
+DP_RMV_0324,,,,,,
+DP_RMV_0325,,,,,,
+DP_RMV_0326,,,,,,
+DP_RMV_0327,,,,,,
+DP_RMV_0328,,,,,,
+DP_RMV_0329,,,,,,
+DP_RMV_0330,,,,,,
+DP_RMV_0331,,,,,,
+DP_RMV_0332,,,,,,
+DP_RMV_0333,,,,,,
+DP_RMV_0334,,,,,,
+DP_RMV_0335,,,,,,
+DP_RMV_0336,,,,,,
+DP_RMV_0337,,,,,,
+DP_RMV_0338,,,,,,
+DP_RMV_0339,,,,,,
+DP_RMV_0340,,,,,,
+DP_RMV_0341,,,,,,
+DP_RMV_0342,,,,,,
+DP_RMV_0343,,,,,,
+DP_RMV_0344,,,,,,
+DP_RMV_0345,,,,,,
+DP_RMV_0346,,,,,,
+DP_RMV_0347,,,,,,
+DP_RMV_0348,,,,,,
+DP_RMV_0349,,,,,,
+DP_RMV_0350,,,,,,
+DP_RMV_0351,,,,,,
+DP_RMV_0352,,,,,,
+DP_RMV_0353,,,,,,
+DP_RMV_0354,,,,,,
+DP_RMV_0355,,,,,,
+DP_RMV_0356,,,,,,
+DP_RMV_0357,,,,,,
+DP_RMV_0358,,,,,,
+DP_RMV_0359,,,,,,
+DP_RMV_0360,,,,,,
+DP_RMV_0361,,,,,,
+DP_RMV_0362,,,,,,
+DP_RMV_0363,,,,,,
+DP_RMV_0364,,,,,,
+DP_RMV_0365,,,,,,
+DP_RMV_0366,,,,,,
+DP_RMV_0367,,,,,,
+DP_RMV_0368,,,,,,
+DP_RMV_0369,,,,,,
+DP_RMV_0370,,,,,,
+DP_RMV_0371,,,,,,
+DP_RMV_0372,,,,,,
+DP_RMV_0373,,,,,,
+DP_RMV_0374,,,,,,
+DP_RMV_0375,,,,,,
+DP_RMV_0376,,,,,,
+DP_RMV_0377,,,,,,
+DP_RMV_0378,,,,,,
+DP_RMV_0379,,,,,,
+DP_RMV_0380,,,,,,
+DP_RMV_0381,,,,,,
+DP_RMV_0382,,,,,,
+DP_RMV_0383,,,,,,
+DP_RMV_0384,,,,,,
+DP_RMV_0385,,,,,,
+DP_RMV_0386,,,,,,
+DP_RMV_0387,,,,,,
+DP_RMV_0388,,,,,,
+DP_RMV_0389,,,,,,
+DP_RMV_0390,,,,,,
+DP_RMV_0391,,,,,,
+DP_RMV_0392,,,,,,
+DP_RMV_0393,,,,,,
+DP_RMV_0394,,,,,,
+DP_RMV_0395,,,,,,
+DP_RMV_0396,,,,,,
+DP_RMV_0397,,,,,,
+DP_RMV_0398,,,,,,
+DP_RMV_0399,,,,,,
+DP_RMV_0400,,,,,,
+DP_RMV_0401,,,,,,
+DP_RMV_0402,,,,,,
+DP_RMV_0403,,,,,,
+DP_RMV_0404,,,,,,
+DP_RMV_0405,,,,,,
+DP_RMV_0406,,,,,,
+DP_RMV_0407,,,,,,
+DP_RMV_0408,,,,,,
+DP_RMV_0409,,,,,,
+DP_RMV_0410,,,,,,
+DP_RMV_0411,,,,,,
+DP_RMV_0412,,,,,,
+DP_RMV_0413,,,,,,
+DP_RMV_0414,,,,,,
+DP_RMV_0415,,,,,,
+DP_RMV_0416,,,,,,
+DP_RMV_0417,,,,,,
+DP_RMV_0418,,,,,,
+DP_RMV_0419,,,,,,
+DP_RMV_0420,,,,,,
+DP_RMV_0421,,,,,,
+DP_RMV_0422,,,,,,
+DP_RMV_0423,,,,,,
+DP_RMV_0424,,,,,,
+DP_RMV_0425,,,,,,
+DP_RMV_0426,,,,,,
+DP_RMV_0427,,,,,,
+DP_RMV_0428,,,,,,
+DP_RMV_0429,,,,,,
+DP_RMV_0430,,,,,,
+DP_RMV_0431,,,,,,
+DP_RMV_0432,,,,,,
+DP_RMV_0433,,,,,,
+DP_RMV_0434,,,,,,
+DP_RMV_0435,,,,,,
+DP_RMV_0436,,,,,,
+DP_RMV_0437,,,,,,
+DP_RMV_0438,,,,,,
+DP_RMV_0439,,,,,,
+DP_RMV_0440,,,,,,
+DP_RMV_0441,,,,,,
+DP_RMV_0442,,,,,,
+DP_RMV_0443,,,,,,
+DP_RMV_0444,,,,,,
+DP_RMV_0445,,,,,,
+DP_RMV_0446,,,,,,
+DP_RMV_0447,,,,,,
+DP_RMV_0448,,,,,,
+DP_RMV_0449,,,,,,
+DP_RMV_0450,,,,,,
+DP_RMV_0451,,,,,,
+DP_RMV_0452,,,,,,
+DP_RMV_0453,,,,,,
+DP_RMV_0454,,,,,,
+DP_RMV_0455,,,,,,
+DP_RMV_0456,,,,,,
+DP_RMV_0457,,,,,,
+DP_RMV_0458,,,,,,
+DP_RMV_0459,,,,,,
+DP_RMV_0460,,,,,,
+DP_RMV_0461,,,,,,
+DP_RMV_0462,,,,,,
+DP_RMV_0463,,,,,,
+DP_RMV_0464,,,,,,
+DP_RMV_0465,,,,,,
+DP_RMV_0466,,,,,,
+DP_RMV_0467,,,,,,
+DP_RMV_0468,,,,,,
+DP_RMV_0469,,,,,,
+DP_RMV_0470,,,,,,
+DP_RMV_0471,,,,,,
+DP_RMV_0472,,,,,,
+DP_RMV_0473,,,,,,
+DP_RMV_0474,,,,,,
+DP_RMV_0475,,,,,,
+DP_RMV_0476,,,,,,
+DP_RMV_0477,,,,,,
+DP_RMV_0478,,,,,,
+DP_RMV_0479,,,,,,
+DP_RMV_0480,,,,,,
+DP_RMV_0481,,,,,,
+DP_RMV_0482,,,,,,
+DP_RMV_0483,,,,,,
+DP_RMV_0484,,,,,,
+DP_RMV_0485,,,,,,
+DP_RMV_0486,,,,,,
+DP_RMV_0487,,,,,,
+DP_RMV_0488,,,,,,
+DP_RMV_0489,,,,,,
+DP_RMV_0490,,,,,,
+DP_RMV_0491,,,,,,
+DP_RMV_0492,,,,,,
+DP_RMV_0493,,,,,,
+DP_RMV_0494,,,,,,
+DP_RMV_0495,,,,,,
+DP_RMV_0496,,,,,,
+DP_RMV_0497,,,,,,
+DP_RMV_0498,,,,,,
+DP_RMV_0499,,,,,,
+DP_RMV_0500,,,,,,
+DP_RMV_0501,,,,,,
+DP_RMV_0502,,,,,,
+DP_RMV_0503,,,,,,
+DP_RMV_0504,,,,,,
+DP_RMV_0505,,,,,,
+DP_RMV_0506,,,,,,
+DP_RMV_0507,,,,,,
+DP_RMV_0508,,,,,,
+DP_RMV_0509,,,,,,
+DP_RMV_0510,,,,,,
+DP_RMV_0511,,,,,,
+DP_RMV_0512,,,,,,
+DP_RMV_0513,,,,,,
+DP_RMV_0514,,,,,,
+DP_RMV_0515,,,,,,
+DP_RMV_0516,,,,,,
+DP_RMV_0517,,,,,,
+DP_RMV_0518,,,,,,
+DP_RMV_0519,,,,,,
+DP_RMV_0520,,,,,,
+DP_RMV_0521,,,,,,
+DP_RMV_0522,,,,,,
+DP_RMV_0523,,,,,,
+DP_RMV_0524,,,,,,
+DP_RMV_0525,,,,,,
+DP_RMV_0526,,,,,,
+DP_RMV_0527,,,,,,
+DP_RMV_0528,,,,,,
+DP_RMV_0529,,,,,,
+DP_RMV_0530,,,,,,
+DP_RMV_0531,,,,,,
+DP_RMV_0532,,,,,,
+DP_RMV_0533,,,,,,
+DP_RMV_0534,,,,,,
+DP_RMV_0535,,,,,,
+DP_RMV_0536,,,,,,
+DP_RMV_0537,,,,,,
+DP_RMV_0538,,,,,,
+DP_RMV_0539,,,,,,
+DP_RMV_0540,,,,,,
+DP_RMV_0541,,,,,,
+DP_RMV_0542,,,,,,
+DP_RMV_0543,,,,,,
+DP_RMV_0544,,,,,,
+DP_RMV_0545,,,,,,
+DP_RMV_0546,,,,,,
+DP_RMV_0547,,,,,,
+DP_RMV_0548,,,,,,
+DP_RMV_0549,,,,,,
+DP_RMV_0550,,,,,,
+DP_RMV_0551,,,,,,
+DP_RMV_0552,,,,,,
+DP_RMV_0553,,,,,,
+DP_RMV_0554,,,,,,
+DP_RMV_0555,,,,,,
+DP_RMV_0556,,,,,,
+DP_RMV_0557,,,,,,
+DP_RMV_0558,,,,,,
+DP_RMV_0559,,,,,,
+DP_RMV_0560,,,,,,
+DP_RMV_0561,,,,,,
+DP_RMV_0562,,,,,,
+DP_RMV_0563,,,,,,
+DP_RMV_0564,,,,,,
+DP_RMV_0565,,,,,,
+DP_RMV_0566,,,,,,
+DP_RMV_0567,,,,,,
+DP_RMV_0568,,,,,,
+DP_RMV_0569,,,,,,
+DP_RMV_0570,,,,,,
+DP_RMV_0571,,,,,,
+DP_RMV_0572,,,,,,
+DP_RMV_0573,,,,,,
+DP_RMV_0574,,,,,,
+DP_RMV_0575,,,,,,
+DP_RMV_0576,,,,,,
+DP_RMV_0577,,,,,,
+DP_RMV_0578,,,,,,
+DP_RMV_0579,,,,,,
+DP_RMV_0580,,,,,,
+DP_RMV_0581,,,,,,
+DP_RMV_0582,,,,,,
+DP_RMV_0583,,,,,,
+DP_RMV_0584,,,,,,
+DP_RMV_0585,,,,,,
+DP_RMV_0586,,,,,,
+DP_RMV_0587,,,,,,
+DP_RMV_0588,,,,,,
+DP_RMV_0589,,,,,,
+DP_RMV_0590,,,,,,
+DP_RMV_0591,,,,,,
+DP_RMV_0592,,,,,,
+DP_RMV_0593,,,,,,
+DP_RMV_0594,,,,,,
+DP_RMV_0595,,,,,,
+DP_RMV_0596,,,,,,
+DP_RMV_0597,,,,,,
+DP_RMV_0598,,,,,,
+DP_RMV_0599,,,,,,
+DP_RMV_0600,,,,,,
+DP_RMV_0601,,,,,,
+DP_RMV_0602,,,,,,
+DP_RMV_0603,,,,,,
+DP_RMV_0604,,,,,,
+DP_RMV_0605,,,,,,
+DP_RMV_0606,,,,,,
+DP_RMV_0607,,,,,,
+DP_RMV_0608,,,,,,
+DP_RMV_0609,,,,,,
+DP_RMV_0610,,,,,,
+DP_RMV_0611,,,,,,
+DP_RMV_0612,,,,,,
+DP_RMV_0613,,,,,,
+DP_RMV_0614,,,,,,
+DP_RMV_0615,,,,,,
+DP_RMV_0616,,,,,,
+DP_RMV_0617,,,,,,
+DP_RMV_0618,,,,,,
+DP_RMV_0619,,,,,,
+DP_RMV_0620,,,,,,
+DP_RMV_0621,,,,,,
+DP_RMV_0622,,,,,,
+DP_RMV_0623,,,,,,
+DP_RMV_0624,,,,,,
+DP_RMV_0625,,,,,,
+DP_RMV_0626,,,,,,
+DP_RMV_0627,,,,,,
+DP_RMV_0628,,,,,,
+DP_RMV_0629,,,,,,
+DP_RMV_0630,,,,,,
+DP_RMV_0631,,,,,,
+DP_RMV_0632,,,,,,
+DP_RMV_0633,,,,,,
+DP_RMV_0634,,,,,,
+DP_RMV_0635,,,,,,
+DP_RMV_0636,,,,,,
+DP_RMV_0637,,,,,,
+DP_RMV_0638,,,,,,
+DP_RMV_0639,,,,,,
+DP_RMV_0640,,,,,,
+DP_RMV_0641,,,,,,
+DP_RMV_0642,,,,,,
+DP_RMV_0643,,,,,,
+DP_RMV_0644,,,,,,
+DP_RMV_0645,,,,,,
+DP_RMV_0646,,,,,,
+DP_RMV_0647,,,,,,
+DP_RMV_0648,,,,,,
+DP_RMV_0649,,,,,,
+DP_RMV_0650,,,,,,
+DP_RMV_0651,,,,,,
+DP_RMV_0652,,,,,,
+DP_RMV_0653,,,,,,
+DP_RMV_0654,,,,,,
+DP_RMV_0655,,,,,,
+DP_RMV_0656,,,,,,
+DP_RMV_0657,,,,,,
+DP_RMV_0658,,,,,,
+DP_RMV_0659,,,,,,
+DP_RMV_0660,,,,,,
+DP_RMV_0661,,,,,,
+DP_RMV_0662,,,,,,
+DP_RMV_0663,,,,,,
+DP_RMV_0664,,,,,,
+DP_RMV_0665,,,,,,
+DP_RMV_0666,,,,,,
+DP_RMV_0667,,,,,,
+DP_RMV_0668,,,,,,
+DP_RMV_0669,,,,,,
+DP_RMV_0670,,,,,,
+DP_RMV_0671,,,,,,
+DP_RMV_0672,,,,,,
+DP_RMV_0673,,,,,,
+DP_RMV_0674,,,,,,
+DP_RMV_0675,,,,,,
+DP_RMV_0676,,,,,,
+DP_RMV_0677,,,,,,
+DP_RMV_0678,,,,,,
+DP_RMV_0679,,,,,,
+DP_RMV_0680,,,,,,
+DP_RMV_0681,,,,,,
+DP_RMV_0682,,,,,,
+DP_RMV_0683,,,,,,
+DP_RMV_0684,,,,,,
+DP_RMV_0685,,,,,,
+DP_RMV_0686,,,,,,
+DP_RMV_0687,,,,,,
+DP_RMV_0688,,,,,,
+DP_RMV_0689,,,,,,
+DP_RMV_0690,,,,,,
+DP_RMV_0691,,,,,,
+DP_RMV_0692,,,,,,
+DP_RMV_0693,,,,,,
+DP_RMV_0694,,,,,,
+DP_RMV_0695,,,,,,
+DP_RMV_0696,,,,,,
+DP_RMV_0697,,,,,,
+DP_RMV_0698,,,,,,
+DP_RMV_0699,,,,,,
+DP_RMV_0700,,,,,,
+DP_RMV_0701,,,,,,
+DP_RMV_0702,,,,,,
+DP_RMV_0703,,,,,,
+DP_RMV_0704,,,,,,
+DP_RMV_0705,,,,,,
+DP_RMV_0706,,,,,,
+DP_RMV_0707,,,,,,
+DP_RMV_0708,,,,,,
+DP_RMV_0709,,,,,,
+DP_RMV_0710,,,,,,
+DP_RMV_0711,,,,,,
+DP_RMV_0712,,,,,,
+DP_RMV_0713,,,,,,
+DP_RMV_0714,,,,,,
+DP_RMV_0715,,,,,,
+DP_RMV_0716,,,,,,
+DP_RMV_0717,,,,,,
+DP_RMV_0718,,,,,,
+DP_RMV_0719,,,,,,
+DP_RMV_0720,,,,,,
+DP_RMV_0721,,,,,,
+DP_RMV_0722,,,,,,
+DP_RMV_0723,,,,,,
+DP_RMV_0724,,,,,,
+DP_RMV_0725,,,,,,
+DP_RMV_0726,,,,,,
+DP_RMV_0727,,,,,,
+DP_RMV_0728,,,,,,
+DP_RMV_0729,,,,,,
+DP_RMV_0730,,,,,,
+DP_RMV_0731,,,,,,
+DP_RMV_0732,,,,,,
+DP_RMV_0733,,,,,,
+DP_RMV_0734,,,,,,
+DP_RMV_0735,,,,,,
+DP_RMV_0736,,,,,,
+DP_RMV_0737,,,,,,
+DP_RMV_0738,,,,,,
+DP_RMV_0739,,,,,,
+DP_RMV_0740,,,,,,
+DP_RMV_0741,,,,,,
+DP_RMV_0742,,,,,,
+DP_RMV_0743,,,,,,
+DP_RMV_0744,,,,,,
+DP_RMV_0745,,,,,,
+DP_RMV_0746,,,,,,
+DP_RMV_0747,,,,,,
+DP_RMV_0748,,,,,,
+DP_RMV_0749,,,,,,
+DP_RMV_0750,,,,,,
+DP_RMV_0751,,,,,,
+DP_RMV_0752,,,,,,
+DP_RMV_0753,,,,,,
+DP_RMV_0754,,,,,,
+DP_RMV_0755,,,,,,
+DP_RMV_0756,,,,,,
+DP_RMV_0757,,,,,,
+DP_RMV_0758,,,,,,
+DP_RMV_0759,,,,,,
+DP_RMV_0760,,,,,,
+DP_RMV_0761,,,,,,
+DP_RMV_0762,,,,,,
+DP_RMV_0763,,,,,,
+DP_RMV_0764,,,,,,
+DP_RMV_0765,,,,,,
+DP_RMV_0766,,,,,,
+DP_RMV_0767,,,,,,
+DP_RMV_0768,,,,,,
+DP_RMV_0769,,,,,,
+DP_RMV_0770,,,,,,
+DP_RMV_0771,,,,,,
+DP_RMV_0772,,,,,,
+DP_RMV_0773,,,,,,
+DP_RMV_0774,,,,,,
+DP_RMV_0775,,,,,,
+DP_RMV_0776,,,,,,
+DP_RMV_0777,,,,,,
+DP_RMV_0778,,,,,,
+DP_RMV_0779,,,,,,
+DP_RMV_0780,,,,,,
+DP_RMV_0781,,,,,,
+DP_RMV_0782,,,,,,
+DP_RMV_0783,,,,,,
+DP_RMV_0784,,,,,,
+DP_RMV_0785,,,,,,
+DP_RMV_0786,,,,,,
+DP_RMV_0787,,,,,,
+DP_RMV_0788,,,,,,
+DP_RMV_0789,,,,,,
+DP_RMV_0790,,,,,,
+DP_RMV_0791,,,,,,
+DP_RMV_0792,,,,,,
+DP_RMV_0793,,,,,,
+DP_RMV_0794,,,,,,
+DP_RMV_0795,,,,,,
+DP_RMV_0796,,,,,,
+DP_RMV_0797,,,,,,
+DP_RMV_0798,,,,,,
+DP_RMV_0799,,,,,,
+DP_RMV_0800,,,,,,
+DP_RMV_0801,,,,,,
+DP_RMV_0802,,,,,,
+DP_RMV_0803,,,,,,
+DP_RMV_0804,,,,,,
+DP_RMV_0805,,,,,,
+DP_RMV_0806,,,,,,
+DP_RMV_0807,,,,,,
+DP_RMV_0808,,,,,,
+DP_RMV_0809,,,,,,
+DP_RMV_0810,,,,,,
+DP_RMV_0811,,,,,,
+DP_RMV_0812,,,,,,
+DP_RMV_0813,,,,,,
+DP_RMV_0814,,,,,,
+DP_RMV_0815,,,,,,
+DP_RMV_0816,,,,,,
+DP_RMV_0817,,,,,,
+DP_RMV_0818,,,,,,
+DP_RMV_0819,,,,,,
+DP_RMV_0820,,,,,,
+DP_RMV_0821,,,,,,
+DP_RMV_0822,,,,,,
+DP_RMV_0823,,,,,,
+DP_RMV_0824,,,,,,
+DP_RMV_0825,,,,,,
+DP_RMV_0826,,,,,,
+DP_RMV_0827,,,,,,
+DP_RMV_0828,,,,,,
+DP_RMV_0829,,,,,,
+DP_RMV_0830,,,,,,
+DP_RMV_0831,,,,,,
+DP_RMV_0832,,,,,,
+DP_RMV_0833,,,,,,
+DP_RMV_0834,,,,,,
+DP_RMV_0835,,,,,,
+DP_RMV_0836,,,,,,
+DP_RMV_0837,,,,,,
+DP_RMV_0838,,,,,,
+DP_RMV_0839,,,,,,
+DP_RMV_0840,,,,,,
+DP_RMV_0841,,,,,,
+DP_RMV_0842,,,,,,
+DP_RMV_0843,,,,,,
+DP_RMV_0844,,,,,,
+DP_RMV_0845,,,,,,
+DP_RMV_0846,,,,,,
+DP_RMV_0847,,,,,,
+DP_RMV_0848,,,,,,
+DP_RMV_0849,,,,,,
+DP_RMV_0850,,,,,,
+DP_RMV_0851,,,,,,
+DP_RMV_0852,,,,,,
+DP_RMV_0853,,,,,,
+DP_RMV_0854,,,,,,
+DP_RMV_0855,,,,,,
+DP_RMV_0856,,,,,,
+DP_RMV_0857,,,,,,
+DP_RMV_0858,,,,,,
+DP_RMV_0859,,,,,,
+DP_RMV_0860,,,,,,
+DP_RMV_0861,,,,,,
+DP_RMV_0862,,,,,,
+DP_RMV_0863,,,,,,
+DP_RMV_0864,,,,,,
+DP_RMV_0865,,,,,,
+DP_RMV_0866,,,,,,
+DP_RMV_0867,,,,,,
+DP_RMV_0868,,,,,,
+DP_RMV_0869,,,,,,
+DP_RMV_0870,,,,,,
+DP_RMV_0871,,,,,,
+DP_RMV_0872,,,,,,
+DP_RMV_0873,,,,,,
+DP_RMV_0874,,,,,,
+DP_RMV_0875,,,,,,
+DP_RMV_0876,,,,,,
+DP_RMV_0877,,,,,,
+DP_RMV_0878,,,,,,
+DP_RMV_0879,,,,,,
+DP_RMV_0880,,,,,,
+DP_RMV_0881,,,,,,
+DP_RMV_0882,,,,,,
+DP_RMV_0883,,,,,,
+DP_RMV_0884,,,,,,
+DP_RMV_0885,,,,,,
+DP_RMV_0886,,,,,,
+DP_RMV_0887,,,,,,
+DP_RMV_0888,,,,,,
+DP_RMV_0889,,,,,,
+DP_RMV_0890,,,,,,
+DP_RMV_0891,,,,,,
+DP_RMV_0892,,,,,,
+DP_RMV_0893,,,,,,
+DP_RMV_0894,,,,,,
+DP_RMV_0895,,,,,,
+DP_RMV_0896,,,,,,
+DP_RMV_0897,,,,,,
+DP_RMV_0898,,,,,,
+DP_RMV_0899,,,,,,
+DP_RMV_0900,,,,,,
+DP_RMV_0901,,,,,,
+DP_RMV_0902,,,,,,
+DP_RMV_0903,,,,,,
+DP_RMV_0904,,,,,,
+DP_RMV_0905,,,,,,
+DP_RMV_0906,,,,,,
+DP_RMV_0907,,,,,,
+DP_RMV_0908,,,,,,
+DP_RMV_0909,,,,,,
+DP_RMV_0910,,,,,,
+DP_RMV_0911,,,,,,
+DP_RMV_0912,,,,,,
+DP_RMV_0913,,,,,,
+DP_RMV_0914,,,,,,
+DP_RMV_0915,,,,,,
+DP_RMV_0916,,,,,,
+DP_RMV_0917,,,,,,
+DP_RMV_0918,,,,,,
+DP_RMV_0919,,,,,,
+DP_RMV_0920,,,,,,
+DP_RMV_0921,,,,,,
+DP_RMV_0922,,,,,,
+DP_RMV_0923,,,,,,
+DP_RMV_0924,,,,,,
+DP_RMV_0925,,,,,,
+DP_RMV_0926,,,,,,
+DP_RMV_0927,,,,,,
+DP_RMV_0928,,,,,,
+DP_RMV_0929,,,,,,
+DP_RMV_0930,,,,,,
+DP_RMV_0931,,,,,,
+DP_RMV_0932,,,,,,
+DP_RMV_0933,,,,,,
+DP_RMV_0934,,,,,,
+DP_RMV_0935,,,,,,
+DP_RMV_0936,,,,,,
+DP_RMV_0937,,,,,,
+DP_RMV_0938,,,,,,
+DP_RMV_0939,,,,,,
+DP_RMV_0940,,,,,,
+DP_RMV_0941,,,,,,
+DP_RMV_0942,,,,,,
+DP_RMV_0943,,,,,,
+DP_RMV_0944,,,,,,
+DP_RMV_0945,,,,,,
+DP_RMV_0946,,,,,,
+DP_RMV_0947,,,,,,
+DP_RMV_0948,,,,,,
+DP_RMV_0949,,,,,,
+DP_RMV_0950,,,,,,
+DP_RMV_0951,,,,,,
+DP_RMV_0952,,,,,,
+DP_RMV_0953,,,,,,
+DP_RMV_0954,,,,,,
+DP_RMV_0955,,,,,,
+DP_RMV_0956,,,,,,
+DP_RMV_0957,,,,,,
+DP_RMV_0958,,,,,,
+DP_RMV_0959,,,,,,
+DP_RMV_0960,,,,,,
+DP_RMV_0961,,,,,,
+DP_RMV_0962,,,,,,
+DP_RMV_0963,,,,,,
+DP_RMV_0964,,,,,,
+DP_RMV_0965,,,,,,
+DP_RMV_0966,,,,,,
+DP_RMV_0967,,,,,,
+DP_RMV_0968,,,,,,
+DP_RMV_0969,,,,,,
+DP_RMV_0970,,,,,,
+DP_RMV_0971,,,,,,
+DP_RMV_0972,,,,,,
+DP_RMV_0973,,,,,,
+DP_RMV_0974,,,,,,
+DP_RMV_0975,,,,,,
+DP_RMV_0976,,,,,,
+DP_RMV_0977,,,,,,
+DP_RMV_0978,,,,,,
+DP_RMV_0979,,,,,,

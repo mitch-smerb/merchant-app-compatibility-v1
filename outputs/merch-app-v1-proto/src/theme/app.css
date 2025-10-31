@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Inter:wght@500;700&display=swap');
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-plink: #334bc1;
+  --color-plink-hover: #293d9c;
+  --color-secondary-plink: #30CCD5;
+  --color-black-plink: #1C1C1C;
+  --color-white-plink: #FFFFFF;
+
+  --color-neutral-90: #F0F4F9;
+  --color-neutral-85: #E6EBEF;
+  --color-neutral-80: #DDE4EA;
+  --color-neutral-40: #626C88;
+  --color-neutral-35: #616B89;
+  --color-placeholder: #616b89;
+
+  --color-input-border: #DDE4EA;
+
+  --color-success-20: #018B6B;
+  --color-success-50: #38CCC0;
+
+  --color-danger-medium: #ff6478;
+  --color-danger-bg: #fff6f6;
+  --color-danger-plink: #ff0000;
+  --color-danger-plink-60: rgba(255, 0, 0, .6);
+
+  --font-mont: 'Montserrat', serif;
+  --font-mont-medium: 'Montserrat Medium', serif;
+  --font-open: 'Open Sans', serif;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans Italic';
+  src: url('../assets/fonts/OpenSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans SemiBold';
+  src: url('../assets/fonts/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('../assets/fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('../assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url('../assets/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik Medium';
+  src: url('../assets/fonts/Rubik-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik SemiBold';
+  src: url('../assets/fonts/Rubik-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik Bold';
+  src: url('../assets/fonts/Rubik-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Inter Medium';
+  src: url('../assets/fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Inter Bold';
+  src: url('../assets/fonts/Inter-Bold.ttf');
+}
+
+.sign-up-default-input {
+  --background: var(--input-background);
+  --color: var(--input-text-color);
+  --padding-top: var(--input-padding-top);
+  --padding-bottom: var(--input-padding-bottom);
+  --padding-start: var(--input-padding-start);
+  --padding-end: var(--input-padding-end);
+  font-weight: bold;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.select-popover ion-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+ion-popover [popover]:not(:popover-open):not(dialog[open]) {
+  display: contents;
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: #f1f1f1;
+  --foreground: #1C1C1C;
+  --card: #ffffff;
+  --card-foreground: #1C1C1C;
+  --popover: #ffffff;
+  --popover-foreground: #1C1C1C;
+  --primary: #334bc1;
+  --primary-foreground: #ffffff;
+  --primary-hover: #293d9c;
+  --secondary: #30CCD5;
+  --secondary-foreground: #1C1C1C;
+  --muted: #f5f5f5;
+  --muted-foreground: #737373;
+  --accent: #30CCD5;
+  --accent-foreground: #1C1C1C;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --border: #DDE4EA;
+  --input: transparent;
+  --input-background: #ededed;
+  --switch-background: #cbced4;
+  --ring: #334bc1;
+  --chart-1: #334bc1;
+  --chart-2: #30CCD5;
+  --chart-3: #737373;
+  --chart-4: #22c55e;
+  --chart-5: #f59e0b;
+  --sidebar: #f5f5f5;
+  --sidebar-foreground: #1C1C1C;
+  --sidebar-primary: #334bc1;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ffffff;
+  --sidebar-accent-foreground: #1C1C1C;
+  --sidebar-border: #DDE4EA;
+  --sidebar-ring: #334bc1;
+
+  /* Plink Typography Scale */
+  --text-h-large: 36px;
+  --text-h-med: 30px;
+  --text-h-small: 24px;
+  --text-body-l: 18px;
+  --text-body-m: 16px;
+  --text-body-s: 14px;
+  --text-caption: 12px;
+  --font-size: 14px;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+
+  /* Typography Utilities */
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-open-sans: 'Open Sans', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+
+  /* Common Sizes */
+  --text-brand: 20px;
+  --text-title: 24px;
+  --text-title-lg: 28px;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Ionic specific overrides */
+  ion-content {
+    --background: var(--background) !important;
+  }
+
+  ion-page {
+    --background: var(--background) !important;
+  }
+}
+
+@layer components {
+  /* Typography Utilities */
+  .text-brand {
+    font-family: var(--font-montserrat);
+    font-size: var(--text-brand);
+    font-weight: 600;
+    color: var(--primary);
+  }
+
+  .text-title {
+    font-family: var(--font-montserrat);
+    font-size: var(--text-title);
+    font-weight: 600;
+    color: var(--foreground);
+  }
+
+  .text-title-lg {
+    font-family: var(--font-montserrat);
+    font-size: var(--text-title-lg);
+    font-weight: 600;
+    color: var(--foreground);
+  }
+
+  .text-menu-header {
+    font-family: var(--font-montserrat);
+    font-size: var(--text-body-l);
+    font-weight: 600;
+    color: var(--foreground);
+  }
+
+  .text-menu-item {
+    font-family: var(--font-open-sans);
+    font-size: var(--text-body-m);
+    font-weight: 500;
+    color: var(--foreground);
+  }
+
+  .text-nav-label {
+    font-family: var(--font-inter);
+    font-size: var(--text-caption);
+    font-weight: 500;
+  }
+
+  .text-stat-large {
+    font-family: var(--font-montserrat);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--foreground);
+    line-height: 1.0;
+  }
+
+  .text-card-title {
+    font-family: var(--font-montserrat);
+    font-size: var(--text-body-l);
+    font-weight: 600;
+    color: var(--foreground);
+  }
+}
+
+/**
+ * Typography styles for AI components
+ */
+@layer base {
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1.0;
+      color: var(--foreground);
+    }
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: var(--text-h-med);
+      font-weight: 600;
+      line-height: 1.2;
+      color: var(--foreground);
+    }
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: var(--text-h-small);
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--foreground);
+    }
+
+    h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: var(--text-body-l);
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--foreground);
+    }
+
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: var(--text-body-m);
+      font-weight: 400;
+      line-height: 1.5;
+      color: var(--foreground);
+    }
+
+    label {
+      font-family: 'Inter', sans-serif;
+      font-size: var(--text-body-s);
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--foreground);
+    }
+
+    button {
+      font-family: 'Inter', sans-serif;
+      font-size: var(--text-body-m);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    input {
+      font-family: 'Open Sans', sans-serif;
+      font-size: var(--text-body-m);
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, .09);
+}
+
+/* EMERGENCY FIXES - HIGH PRIORITY OVERRIDES */
+ion-content {
+  --background: #f1f1f1 !important;
+  background: #f1f1f1 !important;
+}
+
+ion-page {
+  --background: #f1f1f1 !important;
+  background: #f1f1f1 !important;
+}
+
+/* Force large numbers styling - matching AI prototype exactly */
+h1.text-stat-large,
+.text-stat-large,
+div h1 {
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  line-height: 1.2 !important;
+  color: #1C1C1C !important;
+}
+
+/* Force card title styling - matching AI prototype */
+h4.text-card-title,
+.text-card-title,
+div h4 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #1C1C1C !important;
+}
+
+/* Force brand styling */
+.text-brand,
+span.text-brand {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  color: #334bc1 !important;
+}
+
+/* Force page title styling */
+.text-title,
+.text-title-lg,
+h2 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+  color: #1C1C1C !important;
+}
+
+/* Force navigation and menu items */
+.text-menu-item,
+.text-nav-label {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+}
+
+/* Force menu headers */
+.text-menu-header {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+}

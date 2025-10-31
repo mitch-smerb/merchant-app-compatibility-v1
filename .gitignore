@@ -5,3 +5,11 @@ dist/
 .vite/
 .env.local
 .env.*.local
+
+# IDE and personal tools
+.cursor/
+.obsidian/
+
+# Archive directories
+/outputs/archive-docs/
+/Inputs/archive-docs/
